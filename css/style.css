@@ -66,6 +66,13 @@ a:focus, a:hover {
 .header-top-right{
 	float: right;
 }
+
+/*-- graduacao --*/
+
+section.graduacao{
+	margin-top: 30px;
+}
+
 /*-- banner --*/
 .head {
     padding: 0.5em 0em;
