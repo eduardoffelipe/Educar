@@ -56,3 +56,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = true;
 
 $route['sobre'] = 'sobre';
+$route['como-estudar'] = 'comoEstudar';
+$route['cadastro'] = 'cadastro';

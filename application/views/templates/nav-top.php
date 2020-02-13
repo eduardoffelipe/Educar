@@ -35,16 +35,20 @@
 							 <ul class="nav navbar-nav link-effect-4">
 							<li class="active"><a href="<?= base_url() ?>/home" data-hover="Home">Início</a> </li>
 								<li><a href="<?= base_url() ?>sobre" data-hover="About">Sobre Nós </a> </li>
-								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Gallery">Como Estudar?</a></li>
+								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Como Estudar?</a></li>
+								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Graduação</a></li>
+								<!-- <li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Pós-Graduação</a></li>
+								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Capacitação</a></li>
+								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Extensão</a></li> -->
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Cursos <b class="caret"></b></a>
+									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Graduação <b class="caret"></b></a>
 									<ul class="dropdown-menu">
 										<li><a href="<?= base_url() ?>graduacao">Graduação</a></li>
 										<li><a href="<?= base_url() ?>posgraduacao">Pós-Graduação</a></li>
 									</ul>
 							  </li>
 								<li><a href="#" data-hover="Contact">Contato</a></li>
-								<li><a href="#"><span class="buttonNav">Inscreva-se</span></a>
+								<li><a href="<?= base_url() ?>cadastro"><span class="buttonNav">Inscreva-se</span></a>
 							  </ul>
 							</div><!-- /.navbar-collapse -->
 						</div>
