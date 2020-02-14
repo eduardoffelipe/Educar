@@ -11,7 +11,7 @@
 		<div class="contact-grids">
 		
 			<div class="col-md-7 contact-grid wow fadeInUp animated" data-wow-delay=".5s">
-				<form action="#" method="post">		
+				<form action="contactform.php" method="post">		
 					<input type="text" placeholder="Nome" name="name" required="">
 					<input type="email" placeholder="Email" name="email" required="">
 					<div class="clearfix"> </div>
