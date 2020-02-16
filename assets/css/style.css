@@ -761,6 +761,13 @@ ul.socialIcons li a{
 	.inputpesq::-ms-input-placeholder { /* Microsoft Edge */
 		color: #fff;
 	}
+	.inputpesq:focus{
+		border-color: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+					box-shadow: none;
+		border-bottom: 1px solid #fff !important;			
+	}
 	
 	h2 .titlepesq{
 		font-family: 'Montserrat', sans-serif;
@@ -781,6 +788,17 @@ ul.socialIcons li a{
 		padding: 20px;
 		border-top-right-radius: 5px;
 		border-bottom-right-radius: 5px;
+	}
+	.pagination > li > a{
+		color: rgb(30,30,30);
+	}
+	.pagination > li > a:hover{
+		color: rgb(200,17,24);
+		background-color: #e6e6e6;
+	}
+	.pagination > li > a:focus{
+		color: rgb(200,17,24);
+		background-color: #e6e6e6;
 	}
 /* //cursos */
 
