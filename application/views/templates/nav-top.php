@@ -9,8 +9,8 @@
 	<div class="header-top">
 		<div class="container">
 			<div class="header-top-right">
-				<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@examplo.com</a></p>
-				<p><i class="fa fa-phone" aria-hidden="true"></i> (XX) XXXX - XXXX</p>
+				<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contato@educar.com.vc">contato@educar.com.vc</a></p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i> (33)3321-7121</p>
 			</div>
 		</div>
 	</div>
@@ -33,18 +33,20 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							 <ul class="nav navbar-nav link-effect-4">
-							<li class="active"><a href="<?= base_url() ?>/home" data-hover="Home">Início</a> </li>
+							<li><a href="<?= base_url() ?>home" data-hover="Home">Início</a> </li>
 								<li><a href="<?= base_url() ?>sobre" data-hover="About">Sobre Nós </a> </li>
 								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Como Estudar?</a></li>
-								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Graduação</a></li>
+								<!-- <li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Cursos</a></li> -->
 								<!-- <li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Pós-Graduação</a></li>
 								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Capacitação</a></li>
 								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Extensão</a></li> -->
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Graduação <b class="caret"></b></a>
+									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Cursos <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="<?= base_url() ?>graduacao">Graduação</a></li>
-										<li><a href="<?= base_url() ?>posgraduacao">Pós-Graduação</a></li>
+										<li><a href="<?= base_url() ?>cursosgraduacao">Graduação</a></li>
+										<li><a href="<?= base_url() ?>cursospos">Pós-Graduação</a></li>
+										<li><a href="<?= base_url() ?>cursoscapacitacao">Capacitação</a></li>
+										<li><a href="<?= base_url() ?>cursosextensao">Extensão</a></li>
 									</ul>
 							  </li>
 								<li><a href="#" data-hover="Contact">Contato</a></li>
