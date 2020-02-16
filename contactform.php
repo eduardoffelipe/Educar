@@ -30,5 +30,5 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
 <!DOCTYPE HTML>
 <html lang="pt-BR">
 <head>	
-	<meta HTTP-EQUIV="REFRESH" content="0; url=../contact.html"> 
+	<meta HTTP-EQUIV="REFRESH" content="0; url=../"> 
 </head>

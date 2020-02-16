@@ -714,13 +714,80 @@ ul.socialIcons li a{
 .book li {
     list-style-type: none;
     display: inline-block;
-}
+}       
 /* //book */
+
+/* sectionAbout */
+.about{
+	background: #efefef;;
+
+}
+
+/* //about */
+
+/* cursos */
+	.conpesq{
+		background-color: rgb(180, 17, 24);
+		border-radius: 5px;
+		border-color: #fff;
+		color: #fff;
+		margin-top: 30px;
+		padding: 15px 10px;
+	}
+	.conpesq h5{
+		font-size: 18px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.inputpesq{
+		margin-top: 15px;
+		background-color: transparent;
+		color: #fff;
+		border: none;
+		font-size: 16px;
+		width: 80%;
+		border-bottom:1px solid #fff !important;
+
+	}
+	.inputpesq::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: #fff;
+		opacity: 1; /* Firefox */
+	}
+	
+	.inputpesq:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: #fff;
+	}
+	
+	.inputpesq::-ms-input-placeholder { /* Microsoft Edge */
+		color: #fff;
+	}
+	
+	h2 .titlepesq{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold !important;
+	}
+	.cursospesq{
+		background-color: rgb(180, 17, 24);
+		color: #fff;
+		margin-top:10px;
+		padding: 20px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	.cursospesqarea{
+		background-color: #e6e6e6;
+		color: rgb(30,30,30);
+		margin-top:10px;
+		padding: 20px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+/* //cursos */
 
 /* cadastro */
 
 .panel-primary{
-	border-color: #fff;
+	border-color: rgb(80, 32, 32);
 	margin: 20px;
 	-webkit-box-shadow: 0px 1px 20px 5px rgba(0,0,0,0.3);
 -moz-box-shadow: 0px 1px 20px 5px rgba(0,0,0,0.3);
