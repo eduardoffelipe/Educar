@@ -9,7 +9,7 @@
           style="height: 100%;"
         />
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 col-sm-12">
         <form class="form-horizontal">
           <fieldset>
             <div class="panel panel-primary">
@@ -264,15 +264,16 @@
                     <button
                       id="Cadastrar"
                       name="Cadastrar"
-                      class="btn btn-success"
+                      class="btn btn-success mgbt"
                       type="Submit"
+                
                     >
                       Cadastrar
                     </button>
                     <button
                       id="Cancelar"
                       name="Cancelar"
-                      class="btn btn-danger"
+                      class="btn btn-danger mgbt"
                       type="Reset"
                     >
                       Cancelar

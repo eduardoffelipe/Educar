@@ -5,7 +5,7 @@ $para = "eduardoftoledo70@gmail.com";
 $nome = $_POST['name'];
 // 3 - resgatar o assunto digitado no formulário e o email grava na variavel 
 //$assunto $email
-$assunto = $_POST['Contato feito pelo site'];
+$assunto = 'Contato feito pelo site';
 $email = $_POST['email'];
  //4 – Agora definimos a  mensagem que vai ser enviado no e-mail
 $mensagem = "<strong>Nome:  </strong>".$nome;
@@ -30,5 +30,8 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
 <!DOCTYPE HTML>
 <html lang="pt-BR">
 <head>	
-	<meta HTTP-EQUIV="REFRESH" content="0; url=../"> 
+	<meta HTTP-EQUIV="REFRESH" content="0; url=../">
+	<script>
+	alert("Email enviado com sucesso!")
+	</script> 
 </head>

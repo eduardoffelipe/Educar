@@ -1,15 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class ComoEstudar extends CI_Controller {
+class Cursoindividual extends CI_Controller {
 
 	public function index()
 	{
-		$dados['titulo'] = "Educar Centro Educacional :: Sobre Nós";
+		$dados['titulo'] = "Educar Centro Educacional :: Cadastro";
 		
 		$this->load->view('templates/header', $dados);
 		$this->load->view('templates/nav-top', $dados);
-		$this->load->view('pages/como-estudar', $dados);
+		$this->load->view('pages/cursoindiv', $dados);
 		$this->load->view('templates/footer', $dados);
 		$this->load->view('templates/js', $dados);
 	}
