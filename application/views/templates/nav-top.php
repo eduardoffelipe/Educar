@@ -46,7 +46,7 @@
 									</ul>
 							  </li>
 								<li><a href="#" data-hover="Contact">Contato</a></li>
-								<li><a href="<?= base_url() ?>cadastro"><span class="buttonNav">Inscreva-se</span></a>
+								<li><a href="<?= base_url() ?>cadastron"><span class="buttonNav">Inscreva-se</span></a>
 							  </ul>
 							</div><!-- /.navbar-collapse -->
 						</div>
