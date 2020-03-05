@@ -8,10 +8,10 @@ class Home extends CI_Controller {
 		$dados['titulo'] = "Educar Centro Educacional";
 		
 		$this->load->view('templates/header', $dados);
-		$this->load->view('templates/nav-top', $dados);
-		$this->load->view('pages/home', $dados);
-		$this->load->view('templates/footer', $dados);
-		$this->load->view('templates/js', $dados);
+		$this->load->view('templates/nav-top');
+		$this->load->view('pages/home');
+		$this->load->view('templates/footer');
+		$this->load->view('templates/js');
 	}
 
 }

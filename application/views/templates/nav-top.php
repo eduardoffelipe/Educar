@@ -35,18 +35,14 @@
 							 <ul class="nav navbar-nav link-effect-4">
 							<li><a href="<?= base_url() ?>home" data-hover="Home">Início</a> </li>
 								<li><a href="<?= base_url() ?>sobre" data-hover="About">Sobre Nós </a> </li>
-								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Como Estudar?</a></li>
-								<!-- <li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Cursos</a></li> -->
-								<!-- <li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Pós-Graduação</a></li>
-								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Capacitação</a></li>
-								<li><a href="<?= base_url() ?>como-estudar"  data-hover="Como Estudar">Extensão</a></li> -->
+								<li><a href="<?= base_url() ?>como"  data-hover="Como Estudar">Como Estudar?</a></li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Cursos <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="<?= base_url() ?>cursosgraduacao">Graduação</a></li>
-										<li><a href="<?= base_url() ?>cursospos">Pós-Graduação</a></li>
-										<li><a href="<?= base_url() ?>cursoscapacitacao">Capacitação</a></li>
-										<li><a href="<?= base_url() ?>cursosextensao">Extensão</a></li>
+										<li><a href="<?= base_url() ?>cursograduacao">Graduação</a></li>
+										<li><a href="<?= base_url() ?>cursopos">Pós-Graduação</a></li>
+										<li><a href="<?= base_url() ?>cursocapacitacao">Capacitação</a></li>
+										<li><a href="<?= base_url() ?>cursoextensao">Extensão</a></li>
 									</ul>
 							  </li>
 								<li><a href="#" data-hover="Contact">Contato</a></li>
@@ -103,7 +99,7 @@
 
 <!-- WhatsappButton -->
 <div class="fab">
-	<a><img src="./assets/images/whatsapp_logo.png" alt="WhatsappLogo" target="blank"></a>
+	<a href="https://wa.me/553333217121?text=" target="_blank"><img src="./assets/images/whatsapp_logo.png" alt="WhatsappLogo"></a>
 	<ul>
 	</ul>
 	</div>

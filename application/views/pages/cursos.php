@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 ?>
   
 
@@ -32,42 +34,19 @@
         </div>
         <div class="row">
           <div class="container mgtop">
-            <div class="col-md-8 cursospesq">
-              <h4>Curso de Arquitetura</h4>
+              <?php foreach ($cursos as $curso) :
+                if ($curso->modalidade === "$modalidade") :
+                    
+                
+              ?>
+            <div class="col-xs-8 col-md-10 cursospesq">
+              <h4><?= $curso->titulo ?></h4>
             </div>
-            <div class="col-md-4 cursospesqarea">
-              <h4>Engenharias e Construção</h4>
+            <div class="col-xs-4 col-md-2 cursospesqarea">
+              <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso->identificador?>"><h4>Saiba Mais</h4></a>
             </div>
-            <div class="col-md-8 cursospesq">
-              <h4>Curso de Arquitetura</h4>
-            </div>
-            <div class="col-md-4 cursospesqarea">
-              <h4>Engenharias e Construção</h4>
-            </div>
-            <div class="col-md-8 cursospesq">
-              <h4>Curso de Arquitetura</h4>
-            </div>
-            <div class="col-md-4 cursospesqarea">
-              <h4>Engenharias e Construção</h4>
-            </div>
-            <div class="col-md-8 cursospesq">
-              <h4>Curso de Arquitetura</h4>
-            </div>
-            <div class="col-md-4 cursospesqarea">
-              <h4>Engenharias e Construção</h4>
-            </div>
-            <div class="col-md-8 cursospesq">
-              <h4>Curso de Arquitetura</h4>
-            </div>
-            <div class="col-md-4 cursospesqarea">
-              <h4>Engenharias e Construção</h4>
-            </div>
-            <div class="col-md-8 cursospesq">
-              <h4>Curso de Arquitetura</h4>
-            </div>
-            <div class="col-md-4 cursospesqarea">
-              <h4>Engenharias e Construção</h4>
-            </div>
+                <?php endif;?>
+            <?php endforeach; ?>
           </div>
 				</div>
 				<div class="mgtop"></div>

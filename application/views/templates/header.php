@@ -4,7 +4,7 @@ $dir ="";
 if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 	$dir = "/";
 }else if($_SERVER['SERVER_NAME'] == "localhost"){
-	$dir = "local/web";
+	$dir = "/Educar";
 } 
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 <!-- Head -->
 <head>
 <title><?= $titulo ?></title>
-<base href="//<?=$_SERVER['SERVER_NAME'].$dir?> ">
+<!-- <base href="//<?=$_SERVER['SERVER_NAME'].$dir?> "> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="" />

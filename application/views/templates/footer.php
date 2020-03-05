@@ -29,8 +29,7 @@
 					</div>
 					<div class="col-xs-8 contact-grdr">
 						<ul>
-							<li>(XX) XXXX-XXXX</li>
-							<li>(XX) XXXX-XXXX</li>
+							<li>(33)3321-7121</li>
 						</ul>
 					</div>
 					<div class="clearfix"> </div>
@@ -44,7 +43,7 @@
 					</div>
 					<div class="col-xs-7 contact-grdr">
 						<ul>
-							<li>Rua ABCD, 159876</li>
+							<li>Rua Dona Julica,98 - Centro </li>
 							<li>Caratinga, MG - Brasil</li>
 						</ul>
 					</div>
@@ -59,7 +58,7 @@
 					</div>
 					<div class="col-xs-8 contact-grdr">
 						<ul>
-							<li><a href="mailto:info@example.com">info@example.com</a></li>
+							<li><a href="mailto:info@example.com">contato@educar.com.vc</a></li>
 						</ul>
 					</div>
 				</div>
@@ -70,7 +69,7 @@
 					<ul class="socialIcons"> 
 						<li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a class="facebook" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a class="facebook" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a class="facebook" href="https://www.instagram.com/educarcomvc/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -87,7 +86,7 @@
 		<div class="copyrighttop">
 		</div>
 		<div class="copyrightbottom">
-			<p>© 2020 Educar. Todos os direitos reservados | Desenvolvido By <a href="#">EE2X</a></p>
+			<p>© 2020 Educar. Todos os direitos reservados | Desenvolvido por <a href="#">EE2X</a></p>
 		</div>
 		<div class="clearfix"></div>
 	</div>

@@ -256,6 +256,38 @@
                     </div>
                   </div>
                 </div>
+                <div class="form-group">
+                  <label class="col-md-2 control-label" for="prependedtext">Curso</label>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                        <span class="input-group-addon">Tipo</span>
+
+                        <select id="tipo" class="form-control" required="">
+                        <option value="graduacao" disabled>Graduacao - Em breve</option>
+                                <option value="pos" selected >Pos-Graduacao</option>
+                                <option value="capacitacao" disabled>Capacitacao - Em breve</option>
+                                <option value="extensao" disabled>Extensao - Em breve</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                        <span class="input-group-addon">Curso</span>
+
+                        <select id="tipo" class="form-control" required="">
+                                <?php foreach ($cursos as $curso):
+                                    if ($curso->modalidade === "3") : 
+                                    ?>
+                                <option value="<?= $curso->titulo ?>" required><?= $curso->titulo?></option>
+                                <?php endif ?>      
+                            <?php endforeach ?>
+                            </select>
+
+
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Button (Double) -->
                 <div class="form-group">

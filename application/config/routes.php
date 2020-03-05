@@ -58,4 +58,6 @@ $route['translate_uri_dashes'] = true;
 $route['sobre'] = 'sobre';
 $route['como'] = 'como';
 $route['cadastro'] = 'cadastro';
-$route['cursosgraducao'] = 'cursosgraduacao';
+$route['cursograducao'] = 'cursograduacao';
+$route['cursopos'] = 'cursopos';
+$route['cursoindividual'] = 'cursoindividual';
