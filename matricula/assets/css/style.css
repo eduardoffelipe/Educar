@@ -13,18 +13,17 @@
 
 body {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
+    background-color: #b22222;
     font-weight: 100;
     font-size: 12px;
-    line-height: 30px;
+    
     color: #777;
 }
 
 .img-cover {
-    background-image: url('../images/bg1.svg');
-    background-color: #b22222;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 700px;
+   position: absolute;
+   top:-250px;
+
 }
 
 .container {
