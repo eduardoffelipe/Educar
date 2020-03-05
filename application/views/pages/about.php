@@ -5,7 +5,7 @@
 	<div class="container">
 		<h3 class="heading">Sobre Nós</h3>
 		<div class="col-md-6 aboutright">
-			<img src="images/v2.jpg" alt="" />
+			<img class="imgsabout" src="assets/images/conhecaEducar.jpg" alt="" />
 		</div>
 		<div class="col-md-6 aboutleft">
 			<h3>Conheça a Educar</h3>
@@ -24,35 +24,23 @@
 <!-- //about -->
 
 <!-- services -->
-<div class="services jarallax">
-	<div class="container">
-		<div class="col-md-4 servicegrid1">
-			<h3>Missão</h3>
-			<i class="fa fa-rocket" aria-hidden="true"></i>
-			<p> Proin tempor pulvinar sodalesaet. Vivamus lobortis nisi hendrerit mollis finibus ipsum et. </p>
+<div class="services" style="margin-bottom:0;">
+	<div class="container-fluid">
+		<img src="assets/images/MissaoVisaoValores.jpg" style="margin-bottom:0px; width:100%">
+			
 		</div>
-		<div class="col-md-4 servicegrid1">
-			<h3>Visão</h3>
-			<i class="fa fa-eye" aria-hidden="true"></i>
-			<p> Proin tempor pulvinar sodalesaet. Vivamus lobortis nisi hendrerit mollis finibus ipsum et. </p>
-		</div>
-		<div class="col-md-4 servicegrid1">
-			<h3>Valores</h3>
-			<i class="fa fa-book" aria-hidden="true"></i>
-			<p> Proin tempor pulvinar sodalesaet. Vivamus lobortis nisi hendrerit mollis finibus ipsum et. </p>
-		</div>
-		<div class="clearfix"></div>	
+		<!-- <div class="clearfix"></div>	 -->
 	</div>
 </div>
 <!-- //services -->
 
 <!-- team -->
-<div class="team">
+<!-- <div class="team">
 	<div class="container">
 		<h3 class="heading">Equipe</h3>
 		<div class="teamgrids">
 			<div class="col-md-3 teamgrid1">
-				<img src="images/t1.jpg" alt="" />
+				<img src="assets/images/t1.jpg" alt="" />
 				<div class="teaminfo">
 					<h3>Michael adam</h3>
 					<div class="team-social">
@@ -67,7 +55,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 teamgrid1">
-				<img src="images/t2.jpg" alt="" />
+				<img src="assets/images/t2.jpg" alt="" />
 				<div class="teaminfo">
 					<h3>Rebecca</h3>
 					<div class="team-social">
@@ -82,7 +70,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 teamgrid1">
-				<img src="images/t3.jpg" alt="" />
+				<img src="assets/images/t3.jpg" alt="" />
 				<div class="teaminfo">
 					<h3>Sara</h3>
 					<div class="team-social">
@@ -97,7 +85,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 teamgrid1">
-				<img src="images/t4.jpg" alt="" />
+				<img src="assets/images/t4.jpg" alt="" />
 				<div class="teaminfo">
 					<h3>Leonardo</h3>
 					<div class="team-social">
@@ -113,6 +101,6 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- //team -->
 

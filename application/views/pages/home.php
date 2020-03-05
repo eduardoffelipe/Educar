@@ -14,17 +14,10 @@
     <!-- welcome -->
     <div class="welcome">
       <div class="container">  
-        <div class="col-md-5 welcome-w3right">
-          <iframe 
-            width="500" 
-            height="360" 
-            src="https://www.youtube-nocookie.com/embed/ljfXckgATGE" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+        <div class="col-md-6 welcome-w3right">
+          <img src="assets/images/como.jpg" class="imgshome">
         </div>
-        <div class="col-md-5 col-md-offset-2 welcome-w3">
+        <div class="col-md-5 col-md-offset-1 welcome-w3">
           <h3>Como estudar On-Line?</h3>
           <h4>A forma mais consolidada de estudar EAD</h4>
           <p>O EAD tem se consolidado cada vez mais como um meio eficaz na formação educacional das pessoas, não 
@@ -72,12 +65,9 @@
           <p><i class="fa fa-check" aria-hidden="true"></i> Cursos de Extensão. </p>
           <p><i class="fa fa-check" aria-hidden="true"></i> Cursos de Graduação. </p>
           <p><i class="fa fa-check" aria-hidden="true"></i> Cursos de Pós-Graduação. </p>
-          <!-- <div class="readmore-w3">
-            <a class="readmore" href="#">Conheça Todos os cursos</a>
-          </div> -->
         </div>
         <div class="col-md-6 aboutright">
-          <img src="assets/images/bg11.jpg" alt=""/>
+          <img src="assets/images/cursos.jpg" class="imgshome2" alt=""/>
         </div>
         <div class="clearfix"></div>	
       </div>
@@ -88,25 +78,15 @@
     
     
     <!-- book -->
-    <!-- <div class="book jarallax">
-      <div class="container">
-      <h3>We work hard to prepare every student for the adult life</h3>
-      <h3>Better Successful Future</h3>
-      <p>Voluptas assumenda est, omnis dolor repellendus. 
-        Temporibus autem quibusdam et aut officiis debitis aut 
-        rerum necessitatibus saepe.Nam libero tempore, cum soluta nobis est eligendi optio cumque 
-        nihil impedit quo minus id quod maxime placeat facere possimus</p>
-        <div class="readmore-w3">
-          <ul>
-          <li><a class="readmore" href="#">Graduação e Pós-Graduação</a></li>
-          </ul>
-        </div>
+    <div class="book jarallax">
+      <div class="container-fluid">
+        <img src="assets/images/CursosProfissionalizantes.jpg" alt="Cursos Profissionalizantes Educar">
       </div>
-    </div> -->
+    </div>
     <!-- //book -->
     
     <!-- clients-->
-      <div class="clients" id="clients">
+      <!-- <div class="clients" id="clients">
         <div class="container">
           <h3 class="heading">O que os Alunos dizem sobre a Educar</h3>
           <div class="wmuSlider example1 animated wow slideInUp" data-wow-delay=".5s">
@@ -190,5 +170,5 @@
               </div>
             </div>
         </div>
-      </div>
+      </div> -->
     <!--//clients-->
