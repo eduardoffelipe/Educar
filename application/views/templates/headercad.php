@@ -18,10 +18,12 @@ if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 <meta name="keywords" content="" />
 
 <!-- default css files -->
-	<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
-    <!-- <link rel="stylesheet" href="assets/css/cadastro.css" type="text/css" media="all"> -->
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/cadastro.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    
+    
 <!-- default css files -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -43,24 +45,10 @@ if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 <meta name="theme-color" content="#ffffff">
 <!-- //favicon -->
 	
-<!-- scrolling script -->
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script> 
-<!-- //scrolling script -->
-
-<!-- Carousel cards -->
-
-<!-- //Carousel Cards -->
 
 <!-- JivoChat -->
 
-<script src="//code.jivosite.com/widget/eJiH2mDsDf" async></script>
+
 
 <!-- //JivoChat -->
 </head>

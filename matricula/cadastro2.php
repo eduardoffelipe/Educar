@@ -168,6 +168,20 @@
 </body>
 
 <script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+    $('.nav-tabs a').on('shown.bs.tab', function(event){
+        var x = $(event.target).text();         
+        var y = $(event.relatedTarget).text();  
+        $(".act span").text(x);
+        $(".prev span").text(y);
+    });
+});
+</script>
+
+<script>
     function limpa_formulario_cep() {
         //Limpa valores do formulário de cep.
         document.getElementById('rua').value = ("");

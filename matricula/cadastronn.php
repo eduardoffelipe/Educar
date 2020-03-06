@@ -1,44 +1,96 @@
 <?php
-
+ $url = "http://virtualead.com.br/api/api-cursos.php";
+ $cursos = json_decode(file_get_contents($url));
 ?>
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <meta charset="utf-8">
+    <title>Matrícula Educar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
 
- </header>
+    <!-- default css files -->
+    
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+    <!-- default css files -->
+    <script src="../assets/js/bootstrap.js"></script>
+
+    <!--web font-->
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <!--//web font-->
+
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    <link rel="manifest" href="../asstes/images/site.webmanifest">
+    <link rel="mask-icon" href="../asstes/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- JivoChat -->
+    <script src="//code.jivosite.com/widget/eJiH2mDsDf" async></script>
+    <!-- //JivoChat -->
+
+   
+    
+   
+
+    <!-- scrolling script -->
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //scrolling script -->
+
+</header>
 
 <body>
     <img class="img-cover" src="assets/images/bg1.svg" alt="Backgrond Branco SVG">
     <img class="img-logo" src="./assets/images/Untitled-3.png" alt="Logomarca Educar">
     <div class="container">
-        <form name="contact" id="contact" action="#" method="POST">
+    <div class="tabbable-panel">
+				<div class="tabbable-line">
+					<ul class="nav nav-tabs" id="myTabs">
+						<li class="active">
+							<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">
+							Dados Pessoais</a>
+						</li>
+						<li>
+							<a href="#tab2" ria-controls="tab2" role="tab" data-toggle="tab">
+							Endereço</a>
+						</li>
+						<li>
+							<a href="#tab3" ria-controls="tab3" role="tab" data-toggle="tab">
+							Pagamentos </a>
+						</li>
+                    </ul>
+        <form id="contact" action="model.php" method="post">
         <div class="row">
 		<div class="col-md-12">
 			<h3>Cadastro</h3>
 
-			<div class="tabbable-panel">
-				<div class="tabbable-line">
-					<ul class="nav nav-tabs " id="myTabs">
-						<li class="active">
-							<a href="#person" aria-controls="person" data-toggle="tab" role="presentation">
-							Dados Pessoais</a>
-						</li>
-						<li>
-							<a href="#adress" aria-controls="adress" aria-controls="home" data-toggle="tab" role="presentation">
-							Endereço</a>
-						</li>
-						<li>
-							<a href="#payment" aria-controls="payment" aria-controls="home" data-toggle="tab" role="presentation">
-							Pagamentos </a>
-						</li>
-                    </ul>
+
 
             <div class="tab-content">
 
                 <!-- PERSON -->
-			    <div class="tab-pane active" id="person">
+			    <div role="tabpanel" class="tab-pane active" id="tab1">
                     <fieldset>
-                    <div class="col-xs-12">
                         <input 
-                        class="form-control"
                         id="nome" 
                         name="nome" 
                         placeholder="Nome Completo" 
@@ -46,12 +98,9 @@
                         tabindex="1" 
                         required 
                         autofocus>
-                    </div>    
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">
-                        <input
-                        class="form-control" 
+                        <input 
                         id="email" 
                         name="email" 
                         placeholder="Email" 
@@ -59,12 +108,9 @@
                         tabindex="2" 
                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
                         required>
-                    </div>    
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">
                         <input 
-                        class="form-control"
                         id="phone" 
                         name="phone" 
                         placeholder="Telefone(Opcional)" 
@@ -74,12 +120,9 @@
                         tabindex="3" 
                         maxlength="13" 
                         required>
-                    </div>
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">    
                         <input 
-                        class="form-control"
                         id="phone2" 
                         name="phone2" 
                         placeholder="Celular" 
@@ -88,24 +131,18 @@
                         type="tel" 
                         tabindex="4" 
                         maxlength="13">
-                    </div>    
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">    
                         <input 
-                        class="form-control"
                         placeholder="CPF(Somente Números)" 
                         type="text" 
                         tabindex="5"
                         maxlength="14" 
                         OnKeyPress="formatar('###.###.###-##', this)" 
                         pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}$">
-                    </div>    
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">    
                         <input 
-                        class="form-control"
                         placeholder="Data de Nascimento" 
                         tabindex="6" 
                         type="text"
@@ -115,17 +152,16 @@
                         OnKeyPress="formatar('##/##/####', this)" 
                         onBlur="showhide()" 
                         required>
-                    </div>    
                     </fieldset>
-                    <!-- <fieldset>
-                        <a href="#adress" aria-controls="adress" aria-controls="home" data-toggle="tab" role="presentation"><button 
-                        name="prox" 
-                        class="prox" 
+                    <fieldset>
+                        <button 
+                        name="submit" 
+                        type="submit" 
                         id="contact-submit" 
                         data-submit="...Sending">
-                        Próximo
-                        </button></a>
-                    </fieldset> -->
+                        Proximo
+                        </button>
+                    </fieldset>
                     <fieldset>
                         <button 
                         name="limpar" 
@@ -139,13 +175,12 @@
                 </div>
 
                 <!-- ADRESS -->
-			    <div class="tab-pane" id="adress">
+			    <div role="tabpanel" class="tab-pane" id="tab2">
                     <fieldset>
-                    <div class="col-xs-12">    
                     <input
                     id="cep"
                     name="cep"
-                    placeholder="CEP(Apenas números)"
+                    placeholder="Apenas números"
                     class=""
                     required=""
                     value=""
@@ -153,8 +188,6 @@
                     maxlength="8"
                     pattern="[0-9]+$"
                     />
-                    </div>
-                    <div class="col-xs-12">  
                     <button
                     type="button"
                     class="btn btn-primary buttoncep"
@@ -169,10 +202,8 @@
                     >
                     Nao sei meu CEP
                     </button>
-                    </div>
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">
                     <input
                         id="rua"
                         name="rua"
@@ -181,10 +212,8 @@
                         required=""
                         type="text"
                         />
-                    </div>    
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-6">    
                         <input
                         id="numero"
                         name="numero"
@@ -192,21 +221,7 @@
                         placeholder="Número"
                         required=""
                         type="text"
-                        />
-                        </div>
-                        <div class="col-xs-6">
-                        <input
-                        id="complemento"
-                        name="complemento"
-                        class="form-control"
-                        placeholder="Completo"
-                        required=""
-                        type="text"
-                        />
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                    <div class="col-xs-12">
+                        />&nbsp;
                         <input
                         id="bairro"
                         name="bairro"
@@ -215,10 +230,8 @@
                         required=""
                         type="text"
                         />
-                    </div>    
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">    
                         <input
                         id="cidade"
                         name="cidade"
@@ -228,10 +241,8 @@
                         readonly="readonly"
                         type="text"
                         />
-                    </div>    
                     </fieldset>
                     <fieldset>
-                    <div class="col-xs-12">    
                         <input
                         id="estado"
                         name="estado"
@@ -241,7 +252,6 @@
                         readonly="readonly"
                         type="text"
                         />
-                    </div>    
                     </fieldset>
                     <!-- <fieldset>
                         <input placeholder="Data de Nascimento" 
@@ -254,14 +264,14 @@
                         required>
                     </fieldset> -->
                     <fieldset>
-                        <!-- <button 
+                        <button 
                         name="submit" 
                         type="submit" 
                         id="contact-submit" 
                         data-submit="...Sending">
                         Proximo
                         </button>
-                    </fieldset> -->
+                    </fieldset>
                     <fieldset>
                         <button 
                         name="limpar"
@@ -275,7 +285,7 @@
                 </div>
         
         <!-- PAYMENT -->
-        <div class="tab-pane" id="payment">
+        <div role="tabpanel" class="tab-pane" id="tab3">
             <fieldset>
                 <div class="col-xs-12">
                 <select id="tipo" class="form-control" required="">
@@ -325,7 +335,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <div class="col-xs-6">
+                <div class="col-xs-6" style="margin: 0">
                 <input
                 id="cds"
                 name="cds"
@@ -382,12 +392,10 @@
             </fieldset>
             <fieldset>                
                 <button 
-                onclick="return validar()"
                 name="submit" 
                 type="submit" 
                 id="contact-submit" 
-                data-submit="...Sending"
-                >
+                data-submit="...Sending">
                 Finalizar
                 </button>
             </fieldset>
@@ -410,26 +418,6 @@
         </form>
     </div>
 </body>
-
-<!-- <script>
-    function validar() {
-        // Fetching values from all input fields and storing them in variables.
-        var nome = document.getElementById("nome").value;
-        var email = document.getElementById("email").value;
-
-        if(nome == ""){
-            alert('Preencha o campo Nome')
-            return false;
-        }
-        if(email == ""){
-            alert('Preencha o campo Email')
-            return false;
-        }
-
-
-    }
-</script> -->
-
 <script>
 $('#myTabs a').click(function (e) {
   e.preventDefault()

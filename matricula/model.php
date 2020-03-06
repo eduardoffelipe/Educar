@@ -12,6 +12,6 @@ $email = $_POST['email'];
 <!DOCTYPE HTML>
 <html lang="pt-BR">
 <head>	
-	<meta HTTP-EQUIV="REFRESH" content="0; url=../matricula/cadastro2.html">
+	<meta HTTP-EQUIV="REFRESH" content="0; url=../">
 
 </head>

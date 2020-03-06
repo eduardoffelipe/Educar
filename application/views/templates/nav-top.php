@@ -45,8 +45,8 @@
 										<li><a href="<?= base_url() ?>cursoextensao">Extensão</a></li>
 									</ul>
 							  </li>
-								<li><a href="#" data-hover="Contact">Contato</a></li>
-								<li><a href="<?= base_url() ?>cadastron"><span class="buttonNav">Inscreva-se</span></a>
+								<li><a href="" data-hover="Contact">Contato</a></li>
+								<li><a href="<?= base_url() ?>cadastro" target="blank"><span class="buttonNav">Inscreva-se</span></a>
 							  </ul>
 							</div><!-- /.navbar-collapse -->
 						</div>

@@ -1,245 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <!-- Head -->
-
-  <head>
-    <title>
-      E-progress an Education Category Bootstrap Responsive Website Template |
-      Contact :: w3layouts
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <meta
-      name="keywords"
-      content="E-progress a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
-    />
-
-    <!-- default css files -->
-    <link
-      rel="stylesheet"
-      href="assets/css/bootstrap.css"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/css/style.css"
-      type="text/css"
-      media="all"
-    />
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <!-- default css files -->
-
-    <!--web font-->
-    <link
-      href="//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese"
-      rel="stylesheet"
-    />
-    <link
-      href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
-      rel="stylesheet"
-    />
-    <!--//web font-->
-
-    <!-- scrolling script -->
-    <script type="text/javascript">
-      jQuery(document).ready(function($) {
-        $(".scroll").click(function(event) {
-          event.preventDefault();
-          $("html,body").animate(
-            { scrollTop: $(this.hash).offset().top },
-            1000
-          );
-        });
-      });
-    </script>
-    <!-- //scrolling script -->
-  </head>
-
-  <!-- Body -->
-  <body>
-    <!-- banner -->
-    <div class="banner">
-      <div class="header-top">
-        <div class="container">
-          <div class="header-top-right">
-            <p>
-              <i class="fa fa-envelope" aria-hidden="true"></i
-              ><a href="mailto:info@example.com">info@examplo.com</a>
-            </p>
-            <p>
-              <i class="fa fa-phone" aria-hidden="true"></i> (XX) XXXX - XXXX
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="head">
-        <div class="container">
-          <div class="navbar-top">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <div class="navbar-brand logo">
-                <a
-                  ><img src="./assets/images/logoEducar.png" class="logoNavbar"
-                /></a>
-              </div>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div
-              class="collapse navbar-collapse"
-              id="bs-example-navbar-collapse-1"
-            >
-              <ul class="nav navbar-nav link-effect-4">
-                <li class="active">
-                  <a href="<?= base_url() ?>/home" data-hover="Home">Início</a>
-                </li>
-                <li>
-                  <a href="<?= base_url() ?>sobre" data-hover="About"
-                    >Sobre Nós
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="<?= base_url() ?>como-estudar"
-                    data-hover="Como Estudar"
-                    >Como Estudar?</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="<?= base_url() ?>como-estudar"
-                    data-hover="Como Estudar"
-                    >Graduação</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="<?= base_url() ?>como-estudar"
-                    data-hover="Como Estudar"
-                    >Pós-Graduação</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="<?= base_url() ?>como-estudar"
-                    data-hover="Como Estudar"
-                    >Capacitação</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="<?= base_url() ?>como-estudar"
-                    data-hover="Como Estudar"
-                    >Extensão</a
-                  >
-                </li>
-                <!-- <li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Graduação <b class="caret"></b></a>
-									<ul class="dropdown-menu">
-										<li><a href="<?= base_url() ?>graduacao">Graduação</a></li>
-										<li><a href="<?= base_url() ?>posgraduacao">Pós-Graduação</a></li>
-									</ul>
-							  </li> -->
-                <li><a href="#" data-hover="Contact">Contato</a></li>
-                <li>
-                  <a href="#"><span class="buttonNav">Inscreva-se</span></a>
-                </li>
-              </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-          </div>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-      <!--  Carousel -->
-
-      <div
-        id="carousel-example-generic"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carousel-example-generic"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="assets/images/banner1.png" alt="..." />
-            <div class="carousel-caption"></div>
-          </div>
-          <div class="item">
-            <img src="./assets/images/banner2.png" alt="..." />
-            <div class="carousel-caption"></div>
-          </div>
-          <div class="item">
-            <img src="./assets/images/banner3.png" alt="..." />
-            <div class="carousel-caption"></div>
-          </div>
-        </div>
-
-        <!-- Controls -->
-        <a
-          class="left carousel-control"
-          href="#carousel-example-generic"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            class="glyphicon glyphicon-chevron-left"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="right carousel-control"
-          href="#carousel-example-generic"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            class="glyphicon glyphicon-chevron-right"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-      <!-- //carousel -->
-    </div>
-    <!-- //banner -->
-
-    <!-- WhatsappButton -->
-    <div class="fab">
-      <a
-        ><img
-          src="./assets/images/whatsapp_logo.png"
-          alt="WhatsappLogo"
-          target="blank"
-      /></a>
-      <ul></ul>
-    </div>
-
-    <!-- //WhatsappButton -->
 
     <div class="row mgtop">
       <!-- <img src="./assets/images/logoEducar.png" style="width: 400px; margin-bottom: 20px;" class="center" alt=""/> -->
@@ -251,7 +9,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           style="height: 100%;"
         />
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 col-sm-12">
         <form class="form-horizontal">
           <fieldset>
             <div class="panel panel-primary">
@@ -498,6 +256,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                   </div>
                 </div>
+                <div class="form-group">
+                  <label class="col-md-2 control-label" for="prependedtext">Curso</label>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                        <span class="input-group-addon">Tipo</span>
+
+                        <select id="tipo" class="form-control" required="">
+                        <option value="graduacao" disabled>Graduacao - Em breve</option>
+                                <option value="pos" selected >Pos-Graduacao</option>
+                                <option value="capacitacao" disabled>Capacitacao - Em breve</option>
+                                <option value="extensao" disabled>Extensao - Em breve</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                        <span class="input-group-addon">Curso</span>
+
+                        <select id="tipo" class="form-control" required="">
+                                <?php foreach ($cursos as $curso):
+                                    if ($curso->modalidade === "3") : 
+                                    ?>
+                                <option value="<?= $curso->titulo ?>" required><?= $curso->titulo?></option>
+                                <?php endif ?>      
+                            <?php endforeach ?>
+                            </select>
+
+
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Button (Double) -->
                 <div class="form-group">
@@ -508,6 +298,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       name="Cadastrar"
                       class="btn btn-success mgbt"
                       type="Submit"
+                
                     >
                       Cadastrar
                     </button>
@@ -666,56 +457,4 @@ else if(idade()<18) {
 }
 
  }
-    </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Default-JavaScript-File -->
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- //Default-JavaScript-File -->
-
-    <!-- smooth scrolling -->
-    <script src="js/SmoothScroll.min.js"></script>
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <!-- here stars scrolling icon -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        /*
-                  var defaults = {
-                  containerID: 'toTop', // fading element id
-                  containerHoverID: 'toTopHover', // fading element hover id
-                  scrollSpeed: 1200,
-                  easingType: 'linear' 
-                  };
-                */
-
-        $().UItoTop({ easingType: "easeOutQuart" });
-      });
-    </script>
-    <!-- //here ends scrolling icon -->
-    <!-- //smooth scrolling -->
-  </body>
-  <!-- //Body -->
-</html>
+</script>

@@ -54,7 +54,7 @@
     
     <!-- Cursos -->
     
-    <div class="about">
+    <div class="about" id="cursos">
       <div class="container">
         <div class="col-md-6 aboutleft">
           <h3 style="text-align: center;">Cursos</h3>
