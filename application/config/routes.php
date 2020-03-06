@@ -61,3 +61,4 @@ $route['cadastron'] = 'cadastron';
 $route['cursograducao'] = 'cursograduacao';
 $route['cursopos'] = 'cursopos';
 $route['cursoindividual'] = 'cursoindividual';
+$route['cursoextensao'] = 'cursoextensao';

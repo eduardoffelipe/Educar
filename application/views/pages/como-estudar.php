@@ -60,11 +60,33 @@
 	</div>
 </div>
 <!-- //Education -->
+<!-- about -->
+<div class="about">
+	<div class="container">
+		<h3 class="heading">METODOLOGIA EAD</h3>
+		<div class="col-md-6 aboutleft">
+			<h3>Ensino à Distância</h3>
+			<p class="para1">Donec bibendum velit quis diam venenatis, vulputate aliquam sapien blandit. 
+			Etiam dui massa, vehicula a convallis a, facilisis vitae neque.Pellentesque sit amet 
+			odio quis libero eleifend congue at ac justo. Suspendisse posuere congue accumsan Vulputate aliquam sapien. </p>
+			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
+			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
+			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
+			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
+		</div>
+		<div class="col-md-6 aboutright">
+			<img class="imgshome" src="assets/images/como.jpg" alt="" />
+		</div>
+		<div class="clearfix"></div>	
+	</div>
+</div>
+<!-- //about -->
 
 <!-- services -->
 <div class="services jarallax">
-	<div class="container">
-		<div class="col-md-3 servicegrid1">
+	<div class="container-fluid">
+        <img src="assets/images/bannerprematricula.jpg" alt="Banner Pre Matricula">
+		<!-- <div class="col-md-3 servicegrid1">
 			<h3>Learning skills</h3>
 			<h3>education</h3>
 			<i class="fa fa-graduation-cap" aria-hidden="true"></i>
@@ -87,31 +109,11 @@
 			<h3>prize</h3>
 			<i class="fa fa-bus" aria-hidden="true"></i>
 			<p> Proin tempor pulvinar sodalesaet. Vivamus lobortis nisi hendrerit mollis finibus ipsum et. </p>
-		</div>
+		</div> -->
 		<div class="clearfix"></div>	
 	</div>
 </div>
 <!-- //services -->
 
-<!-- about -->
-<div class="about">
-	<div class="container">
-		<h3 class="heading">METODOLOGIA EAD</h3>
-		<div class="col-md-6 aboutleft">
-			<h3>Ensino à Distância</h3>
-			<p class="para1">Donec bibendum velit quis diam venenatis, vulputate aliquam sapien blandit. 
-			Etiam dui massa, vehicula a convallis a, facilisis vitae neque.Pellentesque sit amet 
-			odio quis libero eleifend congue at ac justo. Suspendisse posuere congue accumsan Vulputate aliquam sapien. </p>
-			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
-			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
-			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
-			<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
-		</div>
-		<div class="col-md-6 aboutright">
-			<img src="images/v3.jpg" alt="" />
-		</div>
-		<div class="clearfix"></div>	
-	</div>
-</div>
-<!-- //about -->
+
 

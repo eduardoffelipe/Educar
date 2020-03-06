@@ -2,14 +2,15 @@
 <html lang="pt-br">
 <header>
     <meta charset="utf-8">
-    <title>Matricula Educar</title>
+    <title>Matrícula Educar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="keywords" content="" />
 
     <!-- default css files -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" type="text/css" media="all">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
-
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
     <!-- default css files -->
 
     <!--web font-->
@@ -17,9 +18,32 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
     <!--//web font-->
 
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    <link rel="manifest" href="../asstes/images/site.webmanifest">
+    <link rel="mask-icon" href="../asstes/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- JivoChat -->
     <script src="//code.jivosite.com/widget/eJiH2mDsDf" async></script>
     <!-- //JivoChat -->
+
+    <!-- scrolling script -->
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //scrolling script -->
 
 </header>
 
@@ -27,38 +51,96 @@
     <img class="img-cover" src="assets/images/bg1.svg" alt="Backgrond Branco SVG">
     <img class="img-logo" src="./assets/images/Untitled-3.png" alt="Logomarca Educar">
     <div class="container">
-        <form id="contact" action="" method="post">
+        <form id="contact" action="model.php" method="post">
             <h3>Cadastro</h3>
             <h4>Dados Pessoais</h4>
             <fieldset>
-                <input id="nome" name="nome" placeholder="Nome Completo" type="text" tabindex="1" required autofocus>
+                <input 
+                id="nome" 
+                name="nome" 
+                placeholder="Nome Completo" 
+                type="text" 
+                tabindex="1" 
+                required 
+                autofocus>
             </fieldset>
             <fieldset>
-                <input id="email" name="email" placeholder="Email" type="email" tabindex="2" required>
+                <input 
+                id="email" 
+                name="email" 
+                placeholder="Email" 
+                type="email" 
+                tabindex="2" 
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+                required>
             </fieldset>
             <fieldset>
-                <input id="phone" name="phone" placeholder="Telefone(Opcional)" type="tel" pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$" OnKeyPress="formatar('## ####-####', this)" tabindex="3" required>
+                <input 
+                id="phone" 
+                name="phone" 
+                placeholder="Telefone(Opcional)" 
+                type="tel" 
+                pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$" 
+                OnKeyPress="formatar('## ####-####', this)" 
+                tabindex="3" 
+                maxlength="13" 
+                required>
             </fieldset>
             <fieldset>
-                <input id="phone2" name="phone2" placeholder="Celular" pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$" OnKeyPress="formatar('## #####-####', this)" type="tel" tabindex="4">
+                <input 
+                id="phone2" 
+                name="phone2" 
+                placeholder="Celular" 
+                pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$" 
+                OnKeyPress="formatar('## #####-####', this)" 
+                type="tel" 
+                tabindex="4" 
+                maxlength="13">
             </fieldset>
             <fieldset>
-                <input placeholder="CPF(Somente Números)" type="text" tabindex="5" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" pattern="[0-9]+$">
+                <input 
+                placeholder="CPF(Somente Números)" 
+                type="text" 
+                tabindex="5"
+                maxlength="14" 
+                OnKeyPress="formatar('###.###.###-##', this)" 
+                pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}$">
             </fieldset>
             <fieldset>
-                <input placeholder="Data de nascimento" tabindex="6" required>
+                <input 
+                placeholder="Data de Nascimento" 
+                tabindex="6" 
+                type="text"
+                name="dtnasc" 
+                id="dtnasc" 
+                maxlength="10" 
+                OnKeyPress="formatar('##/##/####', this)" 
+                onBlur="showhide()" 
+                required>
             </fieldset>
             <fieldset>
-                <input placeholder="Selected date" tabindex="7" type="text" id="date-picker-example" class="form-control datepicker">
+                <button 
+                name="submit" 
+                type="submit" 
+                id="contact-submit" 
+                data-submit="...Sending">
+                Proximo
+                </button>
             </fieldset>
             <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                <button 
+                name="limpar" 
+                id="limpar" 
+                type="reset" 
+                id="contact-submit" 
+                data-submit="...Limpando">
+                Limpar
+                </button>
             </fieldset>
-            <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+
         </form>
     </div>
 </body>
-
 
 <script>
     function limpa_formulario_cep() {
@@ -194,131 +276,4 @@
         }
 
     }
-
-
-
-    // Strings and translations
-    monthsFull: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
-            'November', 'December'
-        ],
-        monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        weekdaysFull: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-        weekdaysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-        showMonthsShort: undefined,
-        showWeekdaysFull: undefined,
-
-        // Buttons
-        today: 'Today',
-        clear: 'Clear',
-        close: 'Close',
-
-        // Accessibility labels
-        labelMonthNext: 'Next month',
-        labelMonthPrev: 'Previous month',
-        labelMonthSelect: 'Select a month',
-        labelYearSelect: 'Select a year',
-
-        // Formats
-        format: 'd mmmm, yyyy',
-        formatSubmit: undefined,
-        hiddenPrefix: undefined,
-        hiddenSuffix: '_submit',
-        hiddenName: undefined,
-
-        // Editable input
-        editable: undefined,
-
-        // Dropdown selectors
-        selectYears: undefined,
-        selectMonths: undefined,
-
-        // First day of the week
-        firstDay: undefined,
-
-        // Date limits
-        min: undefined,
-        max: undefined,
-
-        // Disable dates
-        disable: undefined,
-
-        // Root picker container
-        container: undefined,
-
-        // Hidden input container
-        containerHidden: undefined,
-
-        // Close on a user action
-        closeOnSelect: true,
-        closeOnClear: true,
-
-        // Events
-        onStart: undefined,
-        onRender: undefined,
-        onOpen: undefined,
-        onClose: undefined,
-        onSet: undefined,
-        onStop: undefined,
-
-        // Classes
-        klass: {
-
-            // The element states
-            input: 'picker__input',
-            active: 'picker__input--active',
-
-            // The root picker and states *
-            picker: 'picker',
-            opened: 'picker--opened',
-            focused: 'picker--focused',
-
-            // The picker holder
-            holder: 'picker__holder',
-
-            // The picker frame, wrapper, and box
-            frame: 'picker__frame',
-            wrap: 'picker__wrap',
-            box: 'picker__box',
-
-            // The picker header
-            header: 'picker__header',
-
-            // Month navigation
-            navPrev: 'picker__nav--prev',
-            navNext: 'picker__nav--next',
-            navDisabled: 'picker__nav--disabled',
-
-            // Month & year labels
-            month: 'picker__month',
-            year: 'picker__year',
-
-            // Month & year dropdowns
-            selectMonth: 'picker__select--month',
-            selectYear: 'picker__select--year',
-
-            // Table of dates
-            table: 'picker__table',
-
-            // Weekday labels
-            weekdays: 'picker__weekday',
-
-            // Day states
-            day: 'picker__day',
-            disabled: 'picker__day--disabled',
-            selected: 'picker__day--selected',
-            highlighted: 'picker__day--highlighted',
-            now: 'picker__day--today',
-            infocus: 'picker__day--infocus',
-            outfocus: 'picker__day--outfocus',
-
-            // The picker footer
-            footer: 'picker__footer',
-
-            // Today, clear, & close buttons
-            buttonClear: 'picker__button--clear',
-            buttonClose: 'picker__button--close',
-            buttonToday: 'picker__button--today'
-        }
 </script>
-
-</html>
