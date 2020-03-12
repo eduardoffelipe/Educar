@@ -8,7 +8,7 @@ else
 
 ?>
 
-<section>
+<div class="indiv">
     <div class="row">
       <div class="container mgtop">
           <?php
@@ -19,11 +19,11 @@ else
           ?>
         <h2 class="bold"><?= $curso->titulo ?></h2>
         <div class="container topbar mgtop">
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-6">
             <h5>Duração:</h5>
             <p><?= $curso->duracao ?> meses</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-6 mgpes">
             <h5>Valor:</h5>
             <p>R$999,99</p>
           </div>
@@ -38,27 +38,27 @@ else
         </div>
         <div class="container mgtop">
           <h3 class="bold">Público-Alvo</h3>
-          <p class="mgtop txtcursosind"><?= $curso->publico ?></p>
+          <p class="mgtop txtcursosind"><?= str_replace(array("\r\n", ""),array("<br>","*"),$curso->publico) ?></p>
           <hr class="mgtop" />
         </div>
 
         <div class="container mgtop">
           <h3 class="bold">Pré requisitos do curso</h3>
           <p class="mgtop txtcursosind">
-          <?= $curso->pre_requisito ?>
+          <?=  str_replace(array("\r\n", ""),array("<br>","*"),$curso->pre_requisito) ?>
           </p>
           <hr class="mgtop" />
         </div>
 
         <div class="container mgtop">
           <h3 class="bold">Metodologia do curso</h3>
-          <p class="mgtop txtcursosind"><?= $curso->metodologia ?></p>
+          <p class="mgtop txtcursosind"><?= str_replace(array("\r\n", ""),array("<br>","*"),$curso->metodologia) ?></p>
           <hr class="mgtop" />
         </div>
 
         <div class="container mgtop">
           <h3 class="bold">Programa</h3>
-          <?= $curso->programa ?>
+          <p class="mgtop txtcursosind"><?=str_replace(array("\r\n", ""),array("<br>","*"),$curso->programa) ?></p>
           <!-- <div class="container mgtop borders1" style="background-color: rgba(180, 24, 17, 0.7)">
             <div class="col-xs-8">
               <p class="txtcursosind">Didática no Ensino Superior</p>
@@ -118,23 +118,23 @@ else
 
           <div class="container mgtop">
             <h3 class="bold">Carga horária e duração</h3>
-            <p class="mgtop txtcursosind"><?= $curso->carga_horaria ?></p>
+            <p class="mgtop txtcursosind"><?= str_replace(array("\r\n", ""),array("<br>","*"),$curso->carga_horaria) ?></p>
             <hr class="mgtop" />
           </div>
 
           <div class="container mgtop">
             <h3 class="bold">Certificação</h3>
-            <p class="mgtop txtcursosind"><?= $curso->certificacao ?></p>
+            <p class="mgtop txtcursosind"><?= str_replace(array("\r\n", ""),array("<br>","*"),$curso->certificacao) ?></p>
             <hr class="mgtop" />
           </div>
 
-          <div class="container mgtop">
+          <!-- <div class="container mgtop">
             <h3 class="bold">Planos de Pagamento</h3>
             <p class="mgtop txtcursosind">Certificado de pós-graduação lato sensu expedido pela Faculdade Educamais. A
               Faculdade Educamais é credenciada pela Portaria MEC Nº 1.247/2008, de 14/10/2008, e credenciada para
               oferta de cursos a distância pela Portaria MEC Nº 1.168/2018, de 09/11/2018. Os certificados expedidos
               pela Faculdade Educamais têm garantia de validade nacional.</p>
-          </div>
+          </div> -->
           <div class="mgtop"></div>
  
 
@@ -146,6 +146,6 @@ else
     </div>
       
 
-  </section>
+                </div>
 
   

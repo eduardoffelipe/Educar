@@ -62,3 +62,4 @@ $route['cursograducao'] = 'cursograduacao';
 $route['cursopos'] = 'cursopos';
 $route['cursoindividual'] = 'cursoindividual';
 $route['cursoextensao'] = 'cursoextensao';
+$route['contato'] = 'contato';

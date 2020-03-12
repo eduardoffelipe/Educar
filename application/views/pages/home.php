@@ -67,7 +67,7 @@
           <p><i class="fa fa-check" aria-hidden="true"></i> Cursos de Pós-Graduação. </p>
         </div>
         <div class="col-md-6 aboutright">
-          <img src="assets/images/cursos.jpg" class="imgshome2" alt=""/>
+          <img src="assets/images/cursos.jpg" class="imgshome2" alt="Cursos Educar com vc"/>
         </div>
         <div class="clearfix"></div>	
       </div>
@@ -96,7 +96,7 @@
                     <div class="col-md-4 client-grids">
                       <p>In vitae tincidunt turpis. Proin in euismod dolor. Sed eget tellus venenatis, molestie lorem tempus, viverra ante vulputate.</p>
                       <div class="col-md-5 c-img">
-                        <img src="assets/images/c1.jpg"  alt="" />								
+                        <img src="assets/images/c1.jpg"  alt="Cliente 1" />								
                       </div>
                       <div class="col-md-7 c-info">
                         <h4>Thales</h4>
@@ -107,7 +107,7 @@
                     <div class="col-md-4 client-grids">
                       <p>In vitae tincidunt turpis. Proin in euismod dolor. Sed eget tellus venenatis, molestie lorem tempus, viverra ante vulputate.</p>
                       <div class="col-md-5 c-img">
-                        <img src="assets/images/c2.jpg"  alt="" />								
+                        <img src="assets/images/c2.jpg"  alt="Cliente 2" />								
                       </div>
                       <div class="col-md-7 c-info">
                         <h4>Charles</h4>
@@ -118,7 +118,7 @@
                     <div class="col-md-4 client-grids">
                       <p>In vitae tincidunt turpis. Proin in euismod dolor. Sed eget tellus venenatis, molestie lorem tempus, viverra ante vulputate.</p>
                       <div class="col-md-5 c-img">
-                        <img src="assets/images/c3.jpg"  alt="" />								
+                        <img src="assets/images/c3.jpg"  alt="Cliente 3" />								
                       </div>
                       <div class="col-md-7 c-info">
                         <h4>Jessica</h4>
@@ -134,7 +134,7 @@
                     <div class="col-md-4 client-grids">
                       <p>In vitae tincidunt turpis. Proin in euismod dolor. Sed eget tellus venenatis, molestie lorem tempus, viverra ante vulputate.</p>
                       <div class="col-md-5 c-img">
-                        <img src="assets/images/c4.jpg"  alt="" />								
+                        <img src="assets/images/c4.jpg"  alt="Cliente 4" />								
                       </div>
                       <div class="col-md-7 c-info">
                         <h4>Daniel</h4>
@@ -145,7 +145,7 @@
                     <div class="col-md-4 client-grids">
                       <p>In vitae tincidunt turpis. Proin in euismod dolor. Sed eget tellus venenatis, molestie lorem tempus, viverra ante vulputate.</p>
                       <div class="col-md-5 c-img">
-                        <img src="assets/images/c5.jpg"  alt="" />								
+                        <img src="assets/images/c5.jpg"  alt="Cliente 5" />								
                       </div>
                       <div class="col-md-7 c-info">
                         <h4>Johnson</h4>
@@ -156,7 +156,7 @@
                     <div class="col-md-4 client-grids">
                       <p>In vitae tincidunt turpis. Proin in euismod dolor. Sed eget tellus venenatis, molestie lorem tempus, viverra ante vulputate.</p>
                       <div class="col-md-5 c-img">
-                        <img src="assets/images/c6.jpg"  alt="" />								
+                        <img src="assets/images/c6.jpg"  alt="Cliente 6" />								
                       </div>
                       <div class="col-md-7 c-info">
                         <h4>Scarllet</h4>

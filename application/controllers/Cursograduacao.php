@@ -8,7 +8,7 @@ class Cursograduacao extends CI_Controller {
         $url = "http://virtualead.com.br/api/api-cursos.php";
         $cursos = json_decode(file_get_contents($url));
 
-		$dados = ['titulo' => "Educar Centro Educacional :: Cursos", 'cursos' => $cursos ];
+		$dados = ['titulo' => "Educar Centro Educacional :: Cursos Graduação", 'cursos' => $cursos, 'description' => "Página de cursos de graduação Educar.com.vc, a melhor plataforma de aprendizado EAD! Cursos em todos os níveis de conhecimento, Graduação, Pós-Graduação, Cursos de Extensão, Cursos Profissionalizantes."  ];
 		
 		$this->load->view('templates/header', $dados);
 		$this->load->view('templates/nav-top');

@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$dados['titulo'] = "Educar Centro Educacional";
+		$dados = ['titulo' => "Educar Centro Educacional", 'description' => "Página Educar.com.vc - Educar Centro Educacional, a melhor plataforma de aprendizado EAD! Cursos em todos os níveis de conhecimento, Graduação, Pós-Graduação, Cursos de Extensão, Cursos Profissionalizantes." ];
 		
 		$this->load->view('templates/header', $dados);
 		$this->load->view('templates/nav-top');

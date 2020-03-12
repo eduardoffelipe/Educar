@@ -48,7 +48,11 @@ if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 
 <!-- JivoChat -->
 
+<!-- JivoChat -->
 
+<script src="//code.jivosite.com/widget/UOysU5b11y" async></script>
+
+<!-- //JivoChat -->
 
 <!-- //JivoChat -->
 </head>

@@ -11,7 +11,7 @@
 		<div class="contact-grids">
 		
 			<div class="col-md-7 contact-grid wow fadeInUp animated" data-wow-delay=".5s">
-				<form action="contactform.php" method="post">		
+				<form action="./application/controllers/contactform.php" method="post">		
 					<input type="text" placeholder="Nome" name="name" required="">
 					<input type="email" placeholder="Email" name="email" required="">
 					<div class="clearfix"> </div>
@@ -58,7 +58,7 @@
 					</div>
 					<div class="col-xs-8 contact-grdr">
 						<ul>
-							<li><a href="mailto:info@example.com">contato@educar.com.vc</a></li>
+							<li><a href="mailto:contato@educar.com.vc">contato@educar.com.vc</a></li>
 						</ul>
 					</div>
 				</div>
@@ -86,7 +86,7 @@
 		<div class="copyrighttop">
 		</div>
 		<div class="copyrightbottom">
-			<p>© 2020 Educar. Todos os direitos reservados | Desenvolvido por <a href="#">EE2X</a></p>
+			<p>© 2020 Educar. Todos os direitos reservados | Desenvolvido com <i class="fa fa-heart"></i> <a href="#" target="Blank">CodeDreams</a></p>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -100,7 +100,7 @@
 			<div id="small-dialog1" class="mfp-hide book-form">
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				<h3>Sign In </h3>
-					<form action="#" method="post">
+					<form action="./application/controllers/contactform.php" method="post">
 						<input type="text" name="Email" class="email" placeholder="Email" required=""/>
 						<input type="password" name="Password" class="password" placeholder="Password" required=""/>	
 						<ul>

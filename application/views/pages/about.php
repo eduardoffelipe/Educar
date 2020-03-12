@@ -5,7 +5,7 @@
 	<div class="container">
 		<h3 class="heading">Sobre Nós</h3>
 		<div class="col-md-6 aboutright">
-			<img class="imgsabout" src="assets/images/conhecaEducar.jpg" alt="" />
+			<img class="imgsabout" src="assets/images/conhecaEducar.jpg" alt="Conheça a Educar" />
 		</div>
 		<div class="col-md-6 aboutleft">
 			<h3>Conheça a Educar</h3>
@@ -26,7 +26,7 @@
 <!-- services -->
 <div class="services" style="margin-bottom:0;">
 	<div class="container-fluid">
-		<img src="assets/images/MissaoVisaoValores.jpg" style="margin-bottom:0px; width:100%">
+		<img src="assets/images/MissaoVisaoValores.jpg" style="margin-bottom:0px; width:100%" alt="Missão Visão e Valores">
 			
 		</div>
 		<!-- <div class="clearfix"></div>	 -->
@@ -40,7 +40,7 @@
 		<h3 class="heading">Equipe</h3>
 		<div class="teamgrids">
 			<div class="col-md-3 teamgrid1">
-				<img src="assets/images/t1.jpg" alt="" />
+				<img src="assets/images/t1.jpg" alt="Equipe 01" />
 				<div class="teaminfo">
 					<h3>Michael adam</h3>
 					<div class="team-social">
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 teamgrid1">
-				<img src="assets/images/t2.jpg" alt="" />
+				<img src="assets/images/t2.jpg" alt="Equipe 02" />
 				<div class="teaminfo">
 					<h3>Rebecca</h3>
 					<div class="team-social">
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 teamgrid1">
-				<img src="assets/images/t3.jpg" alt="" />
+				<img src="assets/images/t3.jpg" alt="Equipe 03" />
 				<div class="teaminfo">
 					<h3>Sara</h3>
 					<div class="team-social">
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 			<div class="col-md-3 teamgrid1">
-				<img src="assets/images/t4.jpg" alt="" />
+				<img src="assets/images/t4.jpg" alt="Equipe 04" />
 				<div class="teaminfo">
 					<h3>Leonardo</h3>
 					<div class="team-social">

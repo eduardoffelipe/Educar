@@ -1,5 +1,5 @@
 <?php 
-
+$keywords = file_get_contents("./utils/Keywords.csv");
 $dir ="";
 if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 	$dir = "/";
@@ -15,7 +15,8 @@ if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 <!-- <base href="//<?=$_SERVER['SERVER_NAME'].$dir?> "> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<meta name="keywords" content="" />
+<meta name="description" content="<?= $description ?>">
+<meta name="keywords" content="<?= str_replace(array("\r\n", "\n")," ",$keywords); ?>" />
 
 <!-- default css files -->
 	<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all">
@@ -24,9 +25,10 @@ if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 <!-- default css files -->
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	
+<script src="./assets/js/search.js"></script>     
+
 <!--web font-->
 <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -60,7 +62,7 @@ if($_SERVER['SERVER_NAME'] == "educar.ee2x.com.br"){
 
 <!-- JivoChat -->
 
-<script src="//code.jivosite.com/widget/eJiH2mDsDf" async></script>
+<script src="//code.jivosite.com/widget/UOysU5b11y" async></script>
 
 <!-- //JivoChat -->
 </head>

@@ -68,6 +68,10 @@ a:hover {
     outline: none;
 }
 
+h1.dn {
+    display: none;
+}
+
 
 /*-- //Reset-Code --*/
 
@@ -928,6 +932,21 @@ ul.socialIcons li a {
 
 /* cursos */
 
+select .pesqs {
+    width: 250px;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 30px;
+    /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+}
+
+option.pesqselect {
+    height: 30px;
+    color: #000000;
+    border: 1px solid #000000;
+    padding-left: 17px;
+    padding-top: 12px;
+}
+
 .conpesq {
     background-color: rgb(180, 17, 24);
     border-radius: 5px;
@@ -1008,6 +1027,10 @@ h2 .titlepesq {
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cursospesqarea h4 {
+    color: rgb(30, 30, 30);
 }
 
 .pagination>li>a {
@@ -1111,6 +1134,10 @@ h3.cadastro {
     margin-bottom: 50px;
 }
 
+.mgpes {
+    margin-bottom: 20px;
+}
+
 .asideft {
     margin-top: 33%;
 }
@@ -1202,7 +1229,7 @@ a.facebook:hover {
 }
 
 .copyrightbottom a {
-    color: rgba(240, 17, 24);
+    color: #12c8fd;
     text-decoration: none;
 }
 
@@ -1493,6 +1520,7 @@ a.facebook:hover {
 
 .aboutleft p.para1 {
     margin-bottom: 2em;
+    text-align: justify;
 }
 
 .aboutleft i.fa.fa-check {
@@ -2098,6 +2126,21 @@ h2.typoh2 {
     h3.bars {
         margin-bottom: .5em;
     }
+    .welcome {
+        margin-top: -100px;
+    }
+    .education {
+        margin-top: -100px;
+    }
+    .about {
+        margin-top: -100px;
+    }
+    .pesquisa {
+        margin-top: -100px;
+    }
+    .indiv {
+        margin-top: -100px;
+    }
     .progress {
         height: 10px;
         margin-bottom: 10px;
@@ -2140,9 +2183,39 @@ h2.typoh2 {
     .pagination {
         margin: 20px 0 0px;
     }
+    .welcome {
+        margin-top: -140px;
+    }
+    .education {
+        margin-top: -140px;
+    }
+    .about {
+        margin-top: -140px;
+    }
+    .pesquisa {
+        margin-top: -140px;
+    }
+    .indiv {
+        margin-top: -140px;
+    }
 }
 
 @media (max-width: 320px) {
+    .welcome {
+        margin-top: -160px;
+    }
+    .education {
+        margin-top: -160px;
+    }
+    .about {
+        margin-top: -160px;
+    }
+    .pesquisa {
+        margin-top: -160px;
+    }
+    .indiv {
+        margin-top: -160px;
+    }
     .grid_4 {
         margin-top: 18px;
     }
@@ -2317,6 +2390,9 @@ h2.typoh2 {
 }
 
 @media screen and (max-width: 991px) {
+    .cursospesqarea {
+        display: none;
+    }
     .welcome-w3right {
         margin-bottom: 3em;
     }
