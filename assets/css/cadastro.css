@@ -99,6 +99,7 @@ fieldset {
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
+    box-shadow: none !important;
 }
 
 #contact input[type="text"]:hover,

@@ -34,23 +34,7 @@
     </div>
     <!-- //welcome -->
     
-    <!-- book1 -->
-    <!-- <div class="book  book1 jarallax">
-      <div class="container">
-        <h3>We work hard to prepare every student for the adult life</h3>
-        <h3>Better Successful Future</h3>
-        <p>Voluptas assumenda est, omnis dolor repellendus. 
-          Temporibus autem quibusdam et aut officiis debitis aut 
-          rerum necessitatibus saepe.Nam libero tempore, cum soluta nobis est eligendi optio cumque 
-          nihil impedit quo minus id quod maxime placeat facere possimus</p>
-          <div class="readmore-w3">
-            <ul>
-              <li><a class="readmore" href="#">Entre em contato <img src="./assets/images/whatsapp_logo.png" style="width: 30px; height: 30px"></a></li>
-            </ul>
-          </div>
-        </div>
-    </div> -->
-    <!-- //book1 -->
+
     
     <!-- Cursos -->
     

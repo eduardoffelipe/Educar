@@ -1,13 +1,15 @@
 
 
 <!-- map -->
-<h2>Contact</h2>
+
 <div class="map">
-	<h2>Locate us</h2>
+	<h2>Localização</h2>
 	<div class="container">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415650.6082293166!2d148.8007935764926!3d-35.52231558352957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164cdfa09b104b%3A0xe75844385c6e7803!2sAustralian+Capital+Territory%2C+Australia!5e0!3m2!1sen!2sin!4v1496644554880"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6424.079115407081!2d-42.13813295190917!3d-19.790862494071845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xba91ee749b32eb%3A0x5b436d7153bbfcd4!2sEducar%20Centro%20Educacional!5e0!3m2!1spt-BR!2sbr!4v1584018911181!5m2!1spt-BR!2sbr"></iframe>
 	</div>
 </div>
+
+
 <!-- //map -->
 
 <!-- call -->

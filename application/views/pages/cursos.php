@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-
-
 ?>
   
 
@@ -20,12 +18,12 @@ session_start();
               
               <select type="text" placeholder="Curso x" class="inputpesq" onKeyPress="return submitenter(this,event)">
               <?php foreach ($cursos as $curso) :
-                if ($curso->modalidade === "$modalidade") :
+                // if ($curso->modalidade === "$modalidade") :
                 
               ?>  
                 <option class="pesqselect" name="cursoid" value="<?= $curso->identificador ?>"><?= $curso->titulo ?></option>
 
-                <?php endif;?>
+                <!-- endif -->
             <?php endforeach; ?>
 
               </select>
@@ -53,7 +51,7 @@ session_start();
         <div class="row">
           <div class="container mgtop resultado">
               <?php foreach ($cursos as $curso) :
-                if ($curso->modalidade === "$modalidade") :
+                // if ($curso->modalidade === "$modalidade") :
                 
               ?>
             <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso->identificador?>"><div class="col-md-10 cursospesq">
@@ -62,7 +60,7 @@ session_start();
             <div class="col-md-2 cursospesqarea mgpes">
               <h4>Saiba Mais</h4></a>
             </div>
-                <?php endif;?>
+                <?php // endif;?>
             <?php endforeach; ?>
           </div>
 				</div>
