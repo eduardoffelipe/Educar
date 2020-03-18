@@ -54,8 +54,8 @@ session_start();
                 // if ($curso->modalidade === "$modalidade") :
                 
               ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso->identificador?>"><div class="col-md-10 cursospesq">
-              <h4><?= $curso->titulo ?></h4>
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>"><div class="col-md-10 cursospesq">
+              <h4><?= $curso['titulo'] ?></h4>
             </div>
             <div class="col-md-2 cursospesqarea mgpes">
               <h4>Saiba Mais</h4></a>

@@ -5,9 +5,8 @@ class Cursoindividual extends CI_Controller {
 
 	public function index()
 	{
-        $url = "http://virtualead.com.br/api/api-cursos.php";
-        $json = file_get_contents($url);
-        $cursos = json_decode($json);
+        $this->load->model("cursos_model");
+        $cursos = $this->cursos_model->index();
        
         $dados = ['titulo' => "Educar Centro Educacional :: Cursos", 'cursos' => $cursos, 'description' => "Página de detalhada de cursos Educar.com.vc, a melhor plataforma de aprendizado EAD! Cursos em todos os níveis de conhecimento, Graduação, Pós-Graduação, Cursos de Extensão, Cursos Profissionalizantes."  ];
         

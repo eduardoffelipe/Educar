@@ -52,4 +52,4 @@ class Contato extends CI_Controller {
  
 }
 	
-}
+

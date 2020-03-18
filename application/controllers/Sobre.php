@@ -5,7 +5,7 @@ class sobre extends CI_Controller {
 
 	public function index()
 	{
-		$dados['titulo'] = "Educar Centro Educacional :: Sobre Nós";
+		$dados = ['titulo' => "Educar Centro Educacional :: Sobre Nós", 'description' => "Página Sobre Nós, a melhor plataforma de aprendizado EAD! Cursos em todos os níveis de conhecimento, Graduação, Pós-Graduação, Cursos de Extensão, Cursos Profissionalizantes." ];
 		
 		
 		$this->load->view('templates/header', $dados);
