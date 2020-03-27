@@ -21,7 +21,7 @@ session_start();
                 // if ($curso->modalidade === "$modalidade") :
                 
               ?>  
-                <option class="pesqselect" name="cursoid" value="<?= $curso->identificador ?>"><?= $curso->titulo ?></option>
+                <option class="pesqselect" name="cursoid" value="<?= $curso['identificador'] ?>"><?= $curso['titulo'] ?></option>
 
                 <!-- endif -->
             <?php endforeach; ?>
@@ -45,27 +45,129 @@ session_start();
       <section class="cursos">
         <div class="row">
           <div class="container mgtop">
-            <h2 class="titlepesq">Cursos</h2>
+            <h2 class="titlepesq">Cursos nas Áreas de:</h2>
           </div>
         </div>
         <div class="row">
+
+
           <div class="container mgtop resultado">
-              <?php foreach ($cursos as $curso) :
-                // if ($curso->modalidade === "$modalidade") :
+             
+
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel panel-default">
+  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="">
+      <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        
+          <i class="fa fa-arrow-right"></i>&emsp;Direito
+        
+      </h4>
+    </div></a>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+      <?php foreach ($cursos as $curso) :
+                 if ($curso['area'] === "Direito") :
                 
-              ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>"><div class="col-md-10 cursospesq">
-              <h4><?= $curso['titulo'] ?></h4>
-            </div>
-            <div class="col-md-2 cursospesqarea mgpes">
-              <h4>Saiba Mais</h4></a>
-            </div>
-                <?php // endif;?>
+        ?>
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+                <div class="col-md-9 cursospesq">
+                    <h4><?= $curso['titulo'] ?></h4>
+                </div>
+                <div class="col-md-3 cursospesqarea mgpes">
+                    <p>Saiba Mais</p>
+                </div>
+            </a>
+                <?php  endif;?>
             <?php endforeach; ?>
-          </div>
+              
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="panel panel-default">
+  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        
+      <i class="fa fa-arrow-right"></i>&emsp;Engenharia
+        
+      </h4>
+    </div></a>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+      <?php foreach ($cursos as $curso) :
+                 if ($curso['area'] === "Engenharia") :
+                
+        ?>
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+                <div class="col-md-10 cursospesq">
+                    <h4><?= $curso['titulo'] ?></h4>
+                </div>
+                <div class="col-md-2 cursospesqarea mgpes">
+                    <p>Saiba Mais</p>
+                </div>
+            </a>
+                <?php  endif;?>
+            <?php endforeach; ?>
+              
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="panel panel-default">
+  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        
+      <i class="fa fa-arrow-right"></i>&emsp;Educação
+        
+      </h4>
+    </div></a>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+      <?php foreach ($cursos as $curso) :
+                 if ($curso['area'] === "Educação") :
+                
+        ?>
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+                <div class="col-md-9 cursospesq">
+                    <h4><?= $curso['titulo'] ?></h4>
+                </div>
+                <div class="col-md-3 cursospesqarea mgpes">
+                    <p>Saiba Mais</p>
+                </div>
+            </a>
+                <?php  endif;?>
+            <?php endforeach; ?>
+              
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+            <!-- <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+                <div class="col-md-9 cursospesq">
+                    <h4><?= $curso['titulo'] ?></h4>
+                </div>
+                <div class="col-md-3 cursospesqarea mgpes">
+                    <p><?=$curso['area']?></p>
+                </div>
+            </a>
+                <?php // endif;?>
+            <?php //endforeach; ?>
+          </div> -->
 				</div>
 				<div class="mgtop"></div>
       </section>
+
 
 
         <script>

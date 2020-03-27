@@ -15,6 +15,13 @@ class Cadastro extends CI_Controller {
 		$this->load->view('pages/cadastro');
 		// $this->load->view('templates/footer');
 		// $this->load->view('templates/js');
-	}
+    }
+    
+    public function carregacurso($modalidade){
+        $modalidade;
+        $url = "http://virtualead.com.br/api/api-cursos.php";
+        $cursos = json_decode(file_get_contents($url));
+        return $cursos;
+    }
 	
 }

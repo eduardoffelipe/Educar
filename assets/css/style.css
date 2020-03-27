@@ -932,6 +932,21 @@ ul.socialIcons li a {
 
 /* cursos */
 
+.panel-group .panel-heading {
+    background-color: rgba(255, 255, 255) !important;
+    color: rgba(200, 17, 24) !important;
+}
+
+.panel-group .panel-heading:hover {
+    background-color: rgba(180, 17, 24) !important;
+    color: rgba(255, 255, 255) !important;
+}
+
+.panel-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 select .pesqs {
     width: 250px;
     /* Tamanho do select, maior que o tamanho da div "div-select" */
