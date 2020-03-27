@@ -935,11 +935,17 @@ ul.socialIcons li a {
 .panel-group .panel-heading {
     background-color: rgba(255, 255, 255) !important;
     color: rgba(200, 17, 24) !important;
+    -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.63);
+    box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.63);
 }
 
 .panel-group .panel-heading:hover {
     background-color: rgba(180, 17, 24) !important;
     color: rgba(255, 255, 255) !important;
+    -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.63);
+    box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.63);
 }
 
 .panel-title {
