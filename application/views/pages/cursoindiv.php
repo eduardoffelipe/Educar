@@ -124,7 +124,7 @@ else
 
           <div class="container mgtop">
             <h3 class="bold">Certificação</h3>
-            <p class="mgtop txtcursosind"><?= str_replace(array("\r\n", ""),array("<br>","*"),$curso['certificacao']) ?></p>
+            <p class="mgtop txtcursosind">Certificado de pós-graduação lato sensu expedido pela Faculdade Educamais. A Faculdade Educamais é credenciada pela Portaria MEC Nº 1.247/2008, de 14/10/2008, e credenciada para oferta de cursos a distância pela Portaria MEC Nº 1.168/2018, de 09/11/2018. Os certificados expedidos pela Faculdade Educamais têm garantia de validade nacional.</p>
             <hr class="mgtop" />
           </div>
 

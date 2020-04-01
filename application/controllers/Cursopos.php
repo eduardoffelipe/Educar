@@ -39,9 +39,9 @@ class Cursopos extends CI_Controller {
 
         $array = array();
         foreach($cursos as $curso){
-            if($curso['modalidade']=== "3"){ 
+            
                 array_push($array, $curso);   
-            }
+
         }
         $cursos = $array;
 
