@@ -21,7 +21,7 @@ session_start();
                 // if ($curso->modalidade === "$modalidade") :
                 
               ?>  
-                <option class="pesqselect" name="cursoid" value="<?= $curso['identificador'] ?>"><?= $curso['titulo'] ?></option>
+                <option class="pesqselect" name="cursoid" value="<?= $curso['id'] ?>"><?= $curso['titulo'] ?></option>
 
                 <!-- endif -->
             <?php endforeach; ?>
@@ -71,7 +71,7 @@ session_start();
                  if ($curso['area'] === "Administração e Negócios") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -103,7 +103,7 @@ session_start();
                  if ($curso['area'] === "Educação") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-10 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -135,7 +135,7 @@ session_start();
                  if ($curso['area'] === "Engenharia") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -166,7 +166,7 @@ session_start();
                  if ($curso['area'] === "Saúde") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -196,7 +196,7 @@ session_start();
                  if ($curso['area'] === "Medicina Veterinária") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -226,7 +226,7 @@ session_start();
                  if ($curso['area'] === "Psicopedagogia") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -258,7 +258,7 @@ session_start();
                  if ($curso['area'] === "Segurança do Trabalho") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -289,7 +289,7 @@ session_start();
                  if ($curso['area'] === "Comunicação e Marketing") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -320,7 +320,7 @@ session_start();
                  if ($curso['area'] === "Direito") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -350,7 +350,7 @@ session_start();
                  if ($curso['area'] === "Educação Musical") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -380,7 +380,7 @@ session_start();
                  if ($curso['area'] === "Finanças e Contabilidade") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -410,7 +410,7 @@ session_start();
                  if ($curso['area'] === "Meio Ambiente") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -440,7 +440,7 @@ session_start();
                  if ($curso['area'] === "Segurança Pública") :
                 
         ?>
-            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -459,7 +459,7 @@ session_start();
 </div>
 
 
-            <!-- <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['identificador']?>">
+            <!-- <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>">
                 <div class="col-md-9 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                 </div>

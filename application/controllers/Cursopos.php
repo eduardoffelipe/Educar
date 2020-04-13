@@ -14,7 +14,7 @@ class Cursopos extends CI_Controller {
 		
 		$this->load->view('templates/header', $dados);
 		$this->load->view('templates/nav-top');
-		$this->load->view('pages/cursos' );
+		$this->load->view('pages/cursospos' );
 		$this->load->view('templates/footer' );
 		$this->load->view('templates/js');
     }
@@ -39,9 +39,9 @@ class Cursopos extends CI_Controller {
 
         $array = array();
         foreach($cursos as $curso){
-            
+            if($curso['modalidade']==="3"){
                 array_push($array, $curso);   
-
+            }     
         }
         $cursos = $array;
 

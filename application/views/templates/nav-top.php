@@ -35,18 +35,16 @@
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							 <ul class="nav navbar-nav link-effect-4">
 							<li><a href="<?= base_url() ?>home" data-hover="Home">Início</a> </li>
-								<li><a href="<?= base_url() ?>sobre" data-hover="About">Sobre Nós </a> </li>
+								<!-- <li><a href="<?= base_url() ?>sobre" data-hover="About">Sobre Nós </a> </li> -->
 								<li><a href="<?= base_url() ?>como"  data-hover="Como Estudar">Como Estudar?</a></li>
-								<!-- <li class="dropdown">
+								 <li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Cursos <b class="caret"></b></a>
 									<ul class="dropdown-menu">
+										<li><a href="<?= base_url() ?>cursopos">Pós-Graduação Lato Sensu/MBA</a></li>
 										<li><a href="<?= base_url() ?>cursograduacao">Graduação</a></li>
-										<li><a href="<?= base_url() ?>cursopos">Pós-Graduação</a></li>
-										<li><a href="<?= base_url() ?>cursocapacitacao">Capacitação</a></li>
-										<li><a href="<?= base_url() ?>cursoextensao">Extensão</a></li>
+										<li><a href="<?= base_url() ?>cursoextensao">Cursos de Extensão</a></li>
 									</ul>
-                              </li> -->
-                               <li><a href="<?= base_url() ?>cursopos">Cursos</a></li>
+                              </li>
 								<li><a href="<?= base_url() ?>contato" data-hover="Contact">Contato</a></li>
 								<li><a href="<?= base_url() ?>cadastro" target="blank"><span class="buttonNav">Inscreva-se</span></a>
 							  </ul>

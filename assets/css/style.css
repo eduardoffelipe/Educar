@@ -74,7 +74,9 @@ h1.dn {
 
 
 /*-- //Reset-Code --*/
-
+.mgmedtop{
+    margin-top: 15px; 
+}
 .mgtop {
     margin-top: 30px;
 }
