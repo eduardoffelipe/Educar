@@ -10,7 +10,7 @@
 	<div class="header-top">
 		<div class="container">
 			<div class="header-top-right">
-				<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contato@educar.com.vc">contato@educar.com.vc</a></p>
+				<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:atendimento@educar.com.vc">atendimento@educar.com.vc</a></p>
 				<p><i class="fa fa-phone" aria-hidden="true"></i> (33)3321-7121</p>
 			</div>
 		</div>

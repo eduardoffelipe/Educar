@@ -4,18 +4,16 @@
 <!-- contact -->
 <div class="contact">
 	<h3 class="heading">Contato</h3>
-	<p>Voluptas assumenda est, omnis dolor repellendus. 
-		Temporibus autem quibusdam et aut officiis debitis aut 
-		rerum necessitatibus saepe.Nam libero tempore, </p>
+	<p></p>
 	<div class="container">
 		<div class="contact-grids">
 		
 			<div class="col-md-7 contact-grid wow fadeInUp animated" data-wow-delay=".5s">
 				<form action="<?=base_url()?>contactform.php" method="post">		
-					<input type="text" placeholder="Nome" name="name" required="">
-					<input type="email" placeholder="Email" name="email" required="">
+					<input type="text" placeholder="Nome" name="name" id="name" required="">
+					<input type="email" placeholder="Email" name="email" id="email" required="">
 					<div class="clearfix"> </div>
-					<textarea placeholder="Mensagem..." name="message" required=""></textarea>
+					<textarea placeholder="Mensagem..." name="message" id="message" required=""></textarea>
 					<input type="submit" value="Enviar" >
 				</form>
 			</div>
@@ -58,7 +56,7 @@
 					</div>
 					<div class="col-xs-8 contact-grdr">
 						<ul>
-							<li><a href="mailto:contato@educar.com.vc">contato@educar.com.vc</a></li>
+							<li><a href="mailto:contato@educar.com.vc">atendimento@educar.com.vc</a></li>
 						</ul>
 					</div>
 				</div>
@@ -82,11 +80,11 @@
 
 <!-- copyright -->
 <div class="copyright">
-	<div class="container">
-		<div class="copyrighttop">
+	<div class="container center">
+		<div class="copyrighttop center">
 		</div>
-		<div class="copyrightbottom">
-			<p>© 2020 Educar. Todos os direitos reservados | Desenvolvido com <i class="fa fa-heart"></i> <a href="#" target="Blank">CodeDreams</a></p>
+		<div class="copyrightbottom center">
+			<p>© 2020 Educar. Todos os direitos reservados | Desenvolvido com <i class="fa fa-heart"></i> <a href="https://acodedreams.com.br" target="Blank" class="gcode center">CodeDreams</a></p>
 		</div>
 		<div class="clearfix"></div>
 	</div>

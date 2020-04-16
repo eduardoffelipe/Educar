@@ -34,12 +34,10 @@ session_start();
         </div>
         <div class="row">
           <div class="container mgtop">
-
+          <h3 class="bold">Bacharelados</h4>
             <?php foreach ($cursos as $curso) :   ?>
-
               <?php if($curso['area']==='bacharelado') :?>
-                <div class="container mgtop">
-                  <h3 class="bold">Bacharelados</h4>
+                <div class="container">
                   <div class="col-xs-8 col-md-10 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                   </div>
@@ -48,10 +46,13 @@ session_start();
                   </div>
                 </div>
               <?php endif?>
+              <?php endforeach?>
 
+              <div class="mgtop"></div>
+              <h3 class="bold">Licenciaturas</h3>
+              <?php foreach ($cursos as $curso) :   ?>
               <?php if($curso['area']==='licenciatura') :?>
-                <div class="container mgtop">
-                  <h3 class="bold">Licenciaturas</h3>
+                <div class="container">
                   <div class="col-xs-8 col-md-10 cursospesq">
                     <h4><?= $curso['titulo'] ?></h4>
                   </div>
@@ -59,11 +60,14 @@ session_start();
                     <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>"><h4>Saiba Mais</h4></a>
                   </div>
                 </div>
-              <?php endif?>
+                <?php endif?>
+              <?php endforeach?>
 
+              <div class="mgtop"></div>
+              <h3 class="bold">Tecnólogos</h3>
+              <?php foreach ($cursos as $curso) :   ?>  
               <?php if($curso['area']==='tecnologo') :?>
-              <div class="container mgtop">
-                <h3 class="bold">Tecnólogos</h3>
+              <div class="container">
                 <div class="col-xs-8 col-md-10 cursospesq">
                   <h4><?= $curso['titulo'] ?></h4>
                 </div>
@@ -72,16 +76,15 @@ session_start();
                 </div>
               </div>
               <?php endif?>
+              <?php endforeach?>
 
-              
-             
-              
-                  <?php if($curso['area']==='r2a') :?>
-                    <div class="container mgtop">
-                    <h3 class="bold">Formação de Professores R2 (Cursos ofertados com base na Resolução CNE Nº 2/2019)</h3>
+              <div class="mgtop"></div>
+              <h3 class="bold">Formação de Professores R2 (Cursos ofertados com base na Resolução CNE Nº 2/2019)</h3>
                     <div class="mgmedtop"></div>
                     <h4 class="titlepesq bold">A) Formação pedagógica para graduados não licenciados (Bacharéis e Tecnológos)</h4>
-
+              <?php foreach ($cursos as $curso) :   ?>  
+                  <?php if($curso['area']==='r2a') :?>
+                    <div class="container">  
                     <div class="col-xs-8 col-md-10 cursospesq">
                       <h4><?= $curso['titulo'] ?></h4>
                     </div>
@@ -89,22 +92,22 @@ session_start();
                       <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>"><h4>Saiba Mais</h4></a>
                     </div>
                    </div> 
-                  <?php endif?>
+                   <?php endif?>
+              <?php endforeach?>
 
-                  <?php if($curso['area']==='r2a') :?>
-                    <div class="container mgtop">
-                    <h4 class="titlepesq bold">B) Formação pedagógica para graduados não licenciados (Bacharéis e Tecnológos)</h4>
+              <div class="mgtop"></div>     
+              <h4 class="titlepesq bold">B) Formação pedagógica para graduados não licenciados (Bacharéis e Tecnológos)</h4>
+              <?php foreach ($cursos as $curso) :   ?>  
+                  <?php if($curso['area']==='r2b') :?>
+                    <div class="container">
                     <div class="col-xs-8 col-md-10 cursospesq">
                       <h4><?= $curso['titulo'] ?></h4>
                     </div>
                     <div class="col-xs-4 col-md-2 cursospesqarea">
                       <a href="<?= base_url() ?>cursoindividual?cursoid=<?=$curso['id']?>"><h4>Saiba Mais</h4></a>
                     </div>
-                  <?php endif?>
-       
-
               </div>
-            
+              <?php endif?>
 
             <?php endforeach; ?>
 
