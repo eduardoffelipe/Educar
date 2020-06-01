@@ -3,29 +3,25 @@ session_start();
 
 ?>
   
-
-    <!-- <section class="pesquisa">
-      <div class="row">
-        <div class="container mgtop">
-          <h2 class="titlepesq">Faça sua pesquisa</h2>
+  <section class="pesquisa">
+  <div class="row">
+    <div class="container mgtop">
+      <h2 class="titlepesq">Faça sua pesquisa</h2>
+    </div>
+    <div class="container conpesq">
+      <form action="<?=base_url('resultado') ?>" method="post">
+        <div class="col-md-8">
+          <h5>Buscar por nome</h5>
+          <input type="text" placeholder="Digite o curso" class="inputpesq" name="resultado" id="resultado"/>
         </div>
-        <div class="container conpesq">
-          <div class="">
-            <div class="col-md-4">
-              <h5>Buscar por nome</h5>
-              <input type="text" placeholder="Curso x" class="inputpesq"/>
-            </div>
-            <div class="col-md-4">
-              <h5>Busca 2</h5>
-              <input type="text" placeholder="Curso x" class="inputpesq"/>
-            </div>
-            <div class="col-md-4">
-              <h5>Busca 3</h5>
-              <input type="text" placeholder="Curso x" class="inputpesq"/>
-            </div>
-          </div>
+        <div class="col-md-4">
+          <button type="submit" class="btn btn-pesquisar">Pesquisar</button>
         </div>
-      </div> -->
+      </form>
+    </div>
+  </div>
+  </div>
+</section>
       <section class="cursos">
         <div class="row">
           <div class="container mgtop">

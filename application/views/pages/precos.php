@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="mgbt"></div>
-  <div class="row flex center">
+  <!-- <div class="row flex center">
     <div class="col-lg-3">
       <h4 class="uppercase center btnCursosPrecos bold mgbt">Engenharia</h4>
     </div>
@@ -30,8 +30,11 @@
       <div class="mgbt"></div>
     </div>
     <div class="mgbt"></div>
-  </div>
+  </div> -->
   <div class="row flex center">
+  <div class="col-lg-3">
+      <h4 class="uppercase center btnCursosPrecos bold mgbt">Engenharia</h4>
+    </div>
     <div class="col-lg-3">
       <h4 class="uppercase center btnCursosPrecos bold mgbt">Farmácia</h4>
     </div>

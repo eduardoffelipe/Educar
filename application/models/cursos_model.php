@@ -16,7 +16,7 @@ class Cursos_model extends CI_Model
         $this->db->insert("cursos", $curso);
     }
 
-    public function areaCursosPos()
+    public function areacursospos()
     {
         return $this->db->select("area")
             ->from('cursos')
