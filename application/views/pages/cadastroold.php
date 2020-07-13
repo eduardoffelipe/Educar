@@ -10,7 +10,7 @@
         />
       </div>
       <div class="col-md-8 col-sm-12">
-        <form class="form-horizontal">
+        <form class="form-horizontal" method="post" action="<?= base_url() ?>vindicostumer">
           <fieldset>
             <div class="panel panel-primary">
               <div class="panel-body">
@@ -28,8 +28,8 @@
                   >
                   <div class="col-md-8">
                     <input
-                      id="Nome"
-                      name="Nome"
+                      id="name"
+                      name="name"
                       placeholder="Nome Completo"
                       class="form-control input-md"
                       required=""
@@ -78,7 +78,7 @@
 
                 <!-- Prepended text-->
                 <div class="form-group">
-                  <label class="col-md-2 control-label" for="prependedtext"
+                  <label class="col-md-2 control-label" for="phone1"
                     >Telefone <h11>*</h11></label
                   >
                   <div class="col-md-3">
@@ -87,8 +87,8 @@
                         ><i class="glyphicon glyphicon-earphone"></i
                       ></span>
                       <input
-                        id="prependedtext"
-                        name="prependedtext"
+                        id="phone1"
+                        name="phone1"
                         class="form-control"
                         placeholder="XX XXXXX-XXXX"
                         required=""
@@ -100,8 +100,8 @@
                     </div>
                   </div>
 
-                  <label class="col-md-1 control-label" for="prependedtext"
-                    >Telefone</label
+                  <label class="col-md-1 control-label" for="phone2"
+                    >Celular</label
                   >
                   <div class="col-md-3">
                     <div class="input-group">
@@ -109,8 +109,8 @@
                         ><i class="glyphicon glyphicon-earphone"></i
                       ></span>
                       <input
-                        id="prependedtext"
-                        name="prependedtext"
+                        id="phone2"
+                        name="phone2"
                         class="form-control"
                         placeholder="XX XXXXX-XXXX"
                         type="text"
@@ -124,7 +124,7 @@
 
                 <!-- Prepended text-->
                 <div class="form-group">
-                  <label class="col-md-2 control-label" for="prependedtext"
+                  <label class="col-md-2 control-label" for="email"
                     >Email <h11>*</h11></label
                   >
                   <div class="col-md-5">
@@ -133,8 +133,8 @@
                         ><i class="glyphicon glyphicon-envelope"></i
                       ></span>
                       <input
-                        id="prependedtext"
-                        name="prependedtext"
+                        id="email"
+                        name="email"
                         class="form-control"
                         placeholder="email@email.com"
                         required=""
@@ -224,7 +224,7 @@
                 <div class="form-group">
                   <label
                     class="col-md-2 control-label"
-                    for="prependedtext"
+                    for="cidade"
                   ></label>
                   <div class="col-md-4">
                     <div class="input-group">

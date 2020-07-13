@@ -10,11 +10,11 @@ class Cadastro extends CI_Controller {
        
         $dados = ['titulo' => "Educar Centro Educacional :: Cadastro", 'cursos' => $cursos, 'modalidade' => "3" ];
 		
-		$this->load->view('templates/headercad', $dados);
-		// $this->load->view('templates/nav-top');
-		$this->load->view('pages/cadastro');
-		// $this->load->view('templates/footer');
-		// $this->load->view('templates/js');
+		$this->load->view('templates/header', $dados);
+		$this->load->view('templates/nav-top');
+		$this->load->view('pages/cadastroold');
+		$this->load->view('templates/footer');
+		$this->load->view('templates/js');
 	}
 	
 }
