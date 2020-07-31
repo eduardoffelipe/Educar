@@ -27,8 +27,9 @@ else
             <!-- <h5>Valor:</h5>
             <p>R$999,99</p> -->
           </div>
+          
           <div class="col-md-4">
-            <a href="https://api.whatsapp.com/send?phone=5533999031649&text=Ol%c3%a1%2c%20quer%20fazer%20minha%20matr%c3%adcula%20em%20um%20curso&source=&data=&app_absent=" target="blank"><button>Matricule-se</button></a>
+            <a href="<?= base_url() ?>/vindicostumer?cursoid=<?=$cursoid?>"><button>Matricule-se</button></a>
           </div>
         </div>
 

@@ -68,3 +68,4 @@ $route['precosgraduacao'] = 'precosgraduacao';
 $route['resultado'] = 'resultado';
 $route['resultado/'] = 'resultado';
 $route['vindicostumer'] = 'vindicostumer';
+$route['contrato'] = 'contrato';

@@ -861,6 +861,117 @@ ul li input[type="checkbox"]:checked + label span:first-child:before {
     -ms-transition: 0.5s all;
 }
 
+
+/* CONTRATO */
+.contract-grdl {
+    padding: 0 !important;
+}
+
+.contract-grdl span {
+    color: #fff;
+    font-size: 1.7em;
+}
+
+.contract-grdr ul li {
+    list-style-type: none;
+    color: #808489;
+    font-size: 1.1em;
+    margin: 0 0 1em;
+    letter-spacing: 1px;
+}
+
+.contract-grdr ul li a {
+    color: #808489;
+    text-decoration: none;
+    display: block;
+}
+
+.col-xs-3.contract-grdr {
+    padding: 0;
+    color: #fff;
+}
+
+.contract-grdr h3 {
+    font-size: 19px;
+    padding-top: 0.4em;
+}
+
+.col-xs-8.contract-grdr {
+    padding-top: 0.4em;
+}
+
+.contract-grdr ul li a:hover {
+    color: #464646;
+}
+.contract-grid input[type="text"],
+.contract-grid input[type="email"],
+.contract-grid textarea {
+    outline: none;
+    border: 1px solid #808489;
+    width: 49%;
+    float: left;
+    background: #eee;
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 1em;
+    margin: 0 0 1em;
+}
+
+.contract-grid input[type="email"] {
+    float: right;
+}
+
+.contract-grid input[type="text"]:hover,
+.contract-grid input[type="email"]:hover,
+.contract-grid textarea:hover,
+.newsletter:hover {
+    border: 1px solid #0dc5dd;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.contract-grid textarea {
+    min-height: 180px;
+    width: 100%;
+    resize: none;
+    margin: 0 0 2em;
+}
+
+.contract-grid input[type="submit"] {
+    outline: none;
+    border: none;
+    background: rgb(30, 30, 30);
+    color: #fff;
+    font-size: 16px;
+    padding: 0.6em 2em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    display: inherit;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border-radius: 30px;
+}
+
+.contract-grid input[type="submit"]:hover {
+    background: rgba(240, 17, 24);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/* //CONTRATO */
+
+
+
 .call:nth-child(2) {
     margin: 1em 0;
 }

@@ -8,9 +8,9 @@ class Vindicostumer extends CI_Controller
 
   public function index(){
     try {
-      $this->cadastroCliente();
 
-      $dados['titulo'] = "Educar Centro Educacional :: Cadastro";
+      $id = $this->cadastroCliente();
+      $dados = ['titulo' => "Educar Centro Educacional :: Cadastro", 'idCostumer' => $id];
 		
 		
       $this->load->view('templates/header', $dados);
@@ -68,7 +68,8 @@ class Vindicostumer extends CI_Controller
       ],
 
     ]);
-    echo $this->input->post_get('phone1', TRUE);    
-    echo "Novo cliente criado com o id '{$customer->id}'.<br />";
+       
+    return $customer->id;
+    
   }
 }
